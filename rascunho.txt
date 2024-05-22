@@ -1,0 +1,14 @@
+Analise de sentimentocom llM
+
+chatgpt4 - api ou web
+gemini - api ou web
+
+LMstudio:
+entra no site pelo gogle
+
+llama
+mistral
+gemma - atenção
+
+
+GPU offload -> 
