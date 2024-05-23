@@ -171,8 +171,10 @@ cython_debug/
 [Ll]ib64
 [Ll]ocal
 [Ss]cripts
+[Ss]ahre
 pyvenv.cfg
 .venv
 pip-selfcheck.json
+tcc-venv
 
 # End of https://www.toptal.com/developers/gitignore/api/virtualenv
