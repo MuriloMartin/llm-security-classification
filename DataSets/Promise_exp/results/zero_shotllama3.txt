@@ -1,0 +1,85 @@
+1 ,'The system shall refresh the display every 60 seconds.',1. The system shall refresh the display every 60 seconds. , FR
+2 ,'The application shall match the color of the schema set forth by Department of Homeland Security',Here is the labeled requirement:
+
+1. The application shall match the color of the schema set forth by Department of Homeland Security, NFR
+3 ,'If projected  the data must be readable.  On a 10x10 projection screen  90% of viewers must be able to read Event / Activity data from a viewing distance of 30',1. For a 10x10 projection screen, the projected text must be readable by 90% of viewers at a viewing distance of 30', if the data is projected. Functional (FR)
+4 ,'The product shall be available during normal business hours. As long as the user has access to the client PC  the system will be available 99% of the time during the first six months of operation.',1. The product shall be available during normal business hours. As long as the user has access to the client PC the system will be available 99% of the time during the first six months of operation., FR
+5 ,'If projected  the data must be understandable. On a 10x10 projection screen  90% of viewers must be able to determine that Events or Activities are occuring in current time from a viewing distance of 100',Here is the answer:
+
+1. If projected data must be understandable. On a 10x10 projection screen 90% of viewers must be able to determine that Events or Activities are occurring in current time from a viewing distance of 100', FR
+6 ,'The product shall ensure that it can only be accessed by authorized users.  The product will be able to distinguish between authorized and unauthorized users in all access attempts',1, The product shall ensure that it can only be accessed by authorized users., FR
+2, The product will be able to distinguish between authorized and unauthorized users in all access attempts., FR
+7 ,'The product shall be intuitive and self-explanatory. 90% of new users shall be able to start the display of Events or Activities within 90 minutes of using the product.',Here is the labeled requirement:
+
+1. The product shall be intuitive and self-explanatory. 90% of new users shall be able to start the display of Events or Activities within 90 minutes of using the product., Functional (FR)
+8 ,'The product shall respond fast to keep up-to-date data in the display.',1. The product shall respond fast to keep up-to-date data in the display., FR
+9 ,'The product shall be installed by an untrained realtor without recourse to separately-printed instructions.',Here is the labeling:
+
+1. The product shall be installed by an untrained realtor without recourse to separately-printed instructions., FR
+
+This requirement specifies a constraint on how the product should be used or interacted with, which makes it a functional requirement (FR).
+10,'90% of untrained realtors shall be able to install the product on their device without printed instructions',Here is the answer:
+
+1. 10 users,'90% of untrained realtors shall be able to install the product on their device without printed instructions' , Non-Functional Requirement (NFR)
+
+Note: This requirement is labeled as a Non-Functional Requirement because it describes a characteristic or attribute of the system, rather than specifying what the system must do.
+11,'The product is expected to run on Windows CE and Palm operating systems.',Here is the answer:
+
+1. The product is expected to run on Windows CE and Palm operating systems., FR
+12,'Only registered realtors shall be able to access the system.',1. Only registered realtors shall be able to access the system., FR
+13,'Every user of the system shall be authenticated and authorized.',Here is the answer:
+
+1. Every user of the system shall be authenticated and authorized., FR
+14,'The product shall prevent its data from incorrect data being introduced.',Here is the answer:
+
+1. The product shall prevent its data from incorrect data being introduced., Functional (FR)
+
+Note: This requirement specifies how the system should behave and what it should do, which makes it a functional requirement.
+15,'The product shall operate in offline mode whenever internet connection is unavailable.',Here's the answer:
+
+1. The product shall operate in offline mode whenever internet connection is unavailable., Functional Requirement (FR)
+
+This is a functional requirement because it describes what the system should be able to do, specifically how it will behave when there is no internet connection.
+16,'Out of 1000 accesses to the system the system is available 999 times.',1. The system will be available 999 out of 1000 times, FR
+17,'The system shall have a MDI form that allows for the viewing of the graph and the data table.',1. The system shall have a MDI form that allows for the viewing of the graph and the data table., FR
+18,'The system shall display Events in a vertical table by time.',1. The system shall display Events in a vertical table by time., FR
+19,'The system shall display the Events in a graph by time.',1. The system shall display the Events in a graph by time., FR
+20,'The system shall display Events or Activities.',Here is the labeled requirement:
+
+1. The system shall display Events or Activities., FR
+21,'The display shall have two regions:  left 2/3 of the display is graphical  right 1/3 of the display is a data table',Here is the labeled requirement:
+
+1. The display shall have two regions: left 2/3 of the display is graphical and right 1/3 of the display is a data table, FR
+22,'The data displayed in both the nodes within the graph and the rows in the table are MSEL Summary data',Here is the labeled requirement:
+
+22, The data displayed in both the nodes within the graph and the rows in the table are MSEL Summary data, NFR
+23,'The table side of the display shall be split into 2 regions: sequential and temporal.',Here is the answer:
+
+1. The table side of the display shall be split into 2 regions: sequential and temporal., FR
+24,'The top 1/4 of the table will hold events that are to occur sequentially.',Here is the answer:
+
+1. The top 1/4 of the table will hold events that are to occur sequentially., FR
+25,'The system shall display clear property images in the search results',Here is the answer:
+
+1. The system shall display clear property images in the search results, FR
+26,'The system shall update or create new property listings in the MLS',Here is the labeled requirement:
+
+1. The system shall update or create new property listings in the MLS, FR
+27,'Realtor shall be able to generate a CMA report based on property criteria',Here is the labeled requirement:
+
+1. The Realtor shall be able to generate a Comparative Market Analysis (CMA) report based on property criteria, FR
+28,'The system shall be able to call the seller or buyer to schedule an appointment',1. The system shall be able to call the seller or buyer to schedule an appointment. FR
+29,'The realtor shall be notified of new client appointments after automatic synchronization with office system',Here is the answer:
+
+1. The realtor shall be notified of new client appointments after automatic synchronization with office system, Functional (FR)
+
+Note: Since this requirement describes a specific action that needs to happen, it falls under the category of functional requirements (FR).
+30,'The realtor shall be able to retrieve a map showing property locations for a specified area',Here is the answer:
+
+1. The realtor shall be able to retrieve a map showing property locations for a specified area, FR
+31,'The system shall notify the realtor when a seller or buyer responds to an appointment request',Here is the answer:
+
+1. The system shall notify the realtor when a seller or buyer responds to an appointment request, FR
+32,'The product shall allow the user to save the property search results.',Here is the answer:
+
+1. The product shall allow the user to save the property search results., FR
