@@ -18,18 +18,18 @@ def prompt_factory(requirement: str, strategy: str) -> dict:
     user_msg = ''
 
     if strategy == 'zero_shot':
-        user_msg = f"For the given requirement: {requirement} label it as a functional (FR) or non functional requirement (NFR). Answer must be only the label. Do not add any additional information."
+        user_msg = f"For the given requirement: {requirement} label it as a functional (FR) or non functional requirement (NFR). Return the result as a JSON with the following format: {{'label': 'NFR OR FR}}"
     
     if strategy == 'few_shot_cot':
-        req = '1 - Every user of the system shall be authenticated and authorized.'
-        user_msg = f"user_1= For the given requirement: {req}  label it as a functional (FR) or non functional requirement (NFR). Answer in the following format: Number , Label \
+        req = 'Every user of the system shall be authenticated and authorized.'
+        user_msg = f"user_1= For the given requirement: {req}  label it as a functional (FR) or non functional requirement (NFR). Return the result as a JSON with the following format: {{'label': 'NFR OR FR}} \
         assistent_1=This requirement falls under the category of NFR. It specifically addresses the aspect of ensuring the integrity of the system's data by preventing incorrect data from being introduced, which is crucial for maintaining data accuracy and reliability, thereby safeguarding against potential security threats such as data corruption or manipulation. \
-        answer_1 = 1,FNR \
-        user_2= For the given requirement: {requirement} label it as a functional (FR) or non functional requirement (NFR). Answer in the following format: Number , Label"
+        response: {{'label': 'NFR}} \
+        user_2= For the given requirement: {requirement} label it as a functional (FR) or non functional requirement (NFR). Return the result as a JSON with the following format: {{'label': 'NFR OR FR}}"
         
     
     if strategy =='zero_shot_cot':
-        user_msg = f"For the given requirement: {requirement} label it as a functional (FR) or non functional requirement (NFR). Answer in the following format: Number , Label. Lets think step by step"
+        user_msg = f"For the given requirement: {requirement} label it as a functional (FR) or non functional requirement (NFR).Lets think step by step. Return the result as a JSON with the following format: {{'label': 'NFR OR FR}}"
         
     if strategy == 'raw_inst':
         user_msg = f"You are an expert in requirements engineering.  You are tasked with with the classification of non functinal  requierments for a software project. You should consider 2 types  of  requirements: functional (FR) and non functional (NFR) requirements. Functional requirements specify what a system should do, detailing the necessary tasks, behaviors, and functions, while non-functional requirements define the system's quality attributes, such as performance, usability, reliability, and security, ensuring the system's operational standards are met. \
@@ -48,7 +48,7 @@ def prompt_factory(requirement: str, strategy: str) -> dict:
         
     return {'sys_msg': sys_msg, 'user_msg':user_msg}
         
-strategys = ['zero_shot', 'few_shot_cot', 'zero_shot_cot', 'raw_inst']       
+strategys = ['zero_shot', 'few_shot_cot', 'zero_shot_cot']       
     
 
 if __name__ == '__main__':
