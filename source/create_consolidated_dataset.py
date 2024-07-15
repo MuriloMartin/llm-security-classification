@@ -24,7 +24,7 @@ def treat_promise_exp(consolidated_data):
             if data:
                 print(line)
                 output = line.split(',')
-                label = output[2].strip() if output[2].strip() == 'F' else 'NFR'
+                label = 'FR' if output[2].strip() == 'F' else 'NFR'
                 consolidated_data.append({'project_id': output[0], 'requirement': output[1], 'label':label, 'source': 'promise_exp'})
             if '@DATA' in line:
                 data = True
