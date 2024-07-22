@@ -1,0 +1,156 @@
+Confusion Matrix for llama3 - zero_shot:
+[[64  5]
+ [19 12]]
+Classification Report for llama3 - zero_shot:
+              precision    recall  f1-score   support
+
+         NFR       0.71      0.39      0.50        31
+          FR       0.77      0.93      0.84        69
+
+    accuracy                           0.76       100
+   macro avg       0.74      0.66      0.67       100
+weighted avg       0.75      0.76      0.74       100
+
+Confusion Matrix for llama3 - few_shot_cot:
+[[37 32]
+ [ 0 31]]
+Classification Report for llama3 - few_shot_cot:
+              precision    recall  f1-score   support
+
+         NFR       0.49      1.00      0.66        31
+          FR       1.00      0.54      0.70        69
+
+    accuracy                           0.68       100
+   macro avg       0.75      0.77      0.68       100
+weighted avg       0.84      0.68      0.69       100
+
+Confusion Matrix for llama3 - zero_shot_cot:
+[[64  4]
+ [20 11]]
+Classification Report for llama3 - zero_shot_cot:
+              precision    recall  f1-score   support
+
+         NFR       0.73      0.35      0.48        31
+          FR       0.76      0.94      0.84        68
+
+    accuracy                           0.76        99
+   macro avg       0.75      0.65      0.66        99
+weighted avg       0.75      0.76      0.73        99
+
+Confusion Matrix for llama3 - raw_inst:
+[[61  7]
+ [ 3 28]]
+Classification Report for llama3 - raw_inst:
+              precision    recall  f1-score   support
+
+         NFR       0.80      0.90      0.85        31
+          FR       0.95      0.90      0.92        68
+
+    accuracy                           0.90        99
+   macro avg       0.88      0.90      0.89        99
+weighted avg       0.91      0.90      0.90        99
+
+Confusion Matrix for mistral - zero_shot:
+[[64  5]
+ [20  9]]
+Classification Report for mistral - zero_shot:
+              precision    recall  f1-score   support
+
+         NFR       0.64      0.31      0.42        29
+          FR       0.76      0.93      0.84        69
+
+    accuracy                           0.74        98
+   macro avg       0.70      0.62      0.63        98
+weighted avg       0.73      0.74      0.71        98
+
+Confusion Matrix for mistral - few_shot_cot:
+[[39 30]
+ [ 0 29]]
+Classification Report for mistral - few_shot_cot:
+              precision    recall  f1-score   support
+
+         NFR       0.49      1.00      0.66        29
+          FR       1.00      0.57      0.72        69
+
+    accuracy                           0.69        98
+   macro avg       0.75      0.78      0.69        98
+weighted avg       0.85      0.69      0.70        98
+
+Confusion Matrix for mistral - zero_shot_cot:
+[[64  4]
+ [16 13]]
+Classification Report for mistral - zero_shot_cot:
+              precision    recall  f1-score   support
+
+         NFR       0.76      0.45      0.57        29
+          FR       0.80      0.94      0.86        68
+
+    accuracy                           0.79        97
+   macro avg       0.78      0.69      0.72        97
+weighted avg       0.79      0.79      0.78        97
+
+Confusion Matrix for mistral - raw_inst:
+[[63  5]
+ [ 1 28]]
+Classification Report for mistral - raw_inst:
+              precision    recall  f1-score   support
+
+         NFR       0.85      0.97      0.90        29
+          FR       0.98      0.93      0.95        68
+
+    accuracy                           0.94        97
+   macro avg       0.92      0.95      0.93        97
+weighted avg       0.94      0.94      0.94        97
+
+Confusion Matrix for gemma - zero_shot:
+[[64  5]
+ [21 10]]
+Classification Report for gemma - zero_shot:
+              precision    recall  f1-score   support
+
+         NFR       0.67      0.32      0.43        31
+          FR       0.75      0.93      0.83        69
+
+    accuracy                           0.74       100
+   macro avg       0.71      0.63      0.63       100
+weighted avg       0.73      0.74      0.71       100
+
+Confusion Matrix for gemma - few_shot_cot:
+[[37 32]
+ [ 0 30]]
+Classification Report for gemma - few_shot_cot:
+              precision    recall  f1-score   support
+
+         NFR       0.48      1.00      0.65        30
+          FR       1.00      0.54      0.70        69
+
+    accuracy                           0.68        99
+   macro avg       0.74      0.77      0.68        99
+weighted avg       0.84      0.68      0.68        99
+
+Confusion Matrix for gemma - zero_shot_cot:
+[[64  4]
+ [16 14]]
+Classification Report for gemma - zero_shot_cot:
+              precision    recall  f1-score   support
+
+         NFR       0.78      0.47      0.58        30
+          FR       0.80      0.94      0.86        68
+
+    accuracy                           0.80        98
+   macro avg       0.79      0.70      0.72        98
+weighted avg       0.79      0.80      0.78        98
+
+Confusion Matrix for gemma - raw_inst:
+[[61  7]
+ [ 2 28]]
+Classification Report for gemma - raw_inst:
+              precision    recall  f1-score   support
+
+         NFR       0.80      0.93      0.86        30
+          FR       0.97      0.90      0.93        68
+
+    accuracy                           0.91        98
+   macro avg       0.88      0.92      0.90        98
+weighted avg       0.92      0.91      0.91        98
+

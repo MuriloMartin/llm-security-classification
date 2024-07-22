@@ -7,7 +7,8 @@
         "response": {
             "zero_shot": "NFR",
             "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
+            "zero_shot_cot": "NFR",
+            "raw_inst": "NFR"
         }
     },
     {
@@ -17,8 +18,9 @@
         "source": "promise_exp",
         "response": {
             "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": null
+            "few_shot_cot": "NFR",
+            "zero_shot_cot": "NFR",
+            "raw_inst": "NFR"
         }
     },
     {
@@ -29,7 +31,8 @@
         "response": {
             "zero_shot": "FR",
             "few_shot_cot": "FR",
-            "zero_shot_cot": "FR"
+            "zero_shot_cot": "FR",
+            "raw_inst": "NFR"
         }
     },
     {
@@ -38,9 +41,10 @@
         "label": "NFR",
         "source": "promise_exp",
         "response": {
-            "zero_shot": null,
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
+            "zero_shot": "NFR",
+            "few_shot_cot": "NFR",
+            "zero_shot_cot": "NFR",
+            "raw_inst": "NFR"
         }
     },
     {
@@ -50,8 +54,9 @@
         "source": "promise_exp",
         "response": {
             "zero_shot": "FR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
+            "few_shot_cot": "NFR",
+            "zero_shot_cot": "NFR",
+            "raw_inst": "NFR"
         }
     },
     {
@@ -62,7 +67,8 @@
         "response": {
             "zero_shot": "NFR",
             "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
+            "zero_shot_cot": "NFR",
+            "raw_inst": "NFR"
         }
     },
     {
@@ -72,8 +78,9 @@
         "source": "promise_exp",
         "response": {
             "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
+            "few_shot_cot": "NFR",
+            "zero_shot_cot": "NFR",
+            "raw_inst": "NFR"
         }
     },
     {
@@ -83,8 +90,9 @@
         "source": "promise_exp",
         "response": {
             "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
+            "few_shot_cot": "NFR",
+            "zero_shot_cot": "NFR",
+            "raw_inst": "NFR"
         }
     },
     {
@@ -93,9 +101,10 @@
         "label": "FR",
         "source": "promise_exp",
         "response": {
-            "zero_shot": "NFR",
+            "zero_shot": "FR",
             "few_shot_cot": "FR",
-            "zero_shot_cot": null
+            "zero_shot_cot": "NFR",
+            "raw_inst": "FR"
         }
     },
     {
@@ -104,9 +113,10 @@
         "label": "FR",
         "source": "promise_exp",
         "response": {
-            "zero_shot": "Non-Functional Requirement (NFR)",
+            "zero_shot": "NFR",
             "few_shot_cot": "FR",
-            "zero_shot_cot": null
+            "zero_shot_cot": "NFR",
+            "raw_inst": "FR"
         }
     },
     {
@@ -115,9 +125,10 @@
         "label": "FR",
         "source": "promise_exp",
         "response": {
-            "zero_shot": "Non-functional Requirement",
+            "zero_shot": "NFR",
             "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
+            "zero_shot_cot": "NFR",
+            "raw_inst": "FR"
         }
     },
     {
@@ -126,9 +137,10 @@
         "label": "FR",
         "source": "promise_exp",
         "response": {
-            "zero_shot": "FR",
-            "few_shot_cot": null,
-            "zero_shot_cot": "FR"
+            "zero_shot": "NFR",
+            "few_shot_cot": "FR",
+            "zero_shot_cot": "FR",
+            "raw_inst": "FR"
         }
     },
     {
@@ -139,7 +151,8 @@
         "response": {
             "zero_shot": "NFR",
             "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
+            "zero_shot_cot": "NFR",
+            "raw_inst": "FR"
         }
     },
     {
@@ -150,7 +163,8 @@
         "response": {
             "zero_shot": "NFR",
             "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
+            "zero_shot_cot": "NFR",
+            "raw_inst": "FR"
         }
     },
     {
@@ -161,7 +175,8 @@
         "response": {
             "zero_shot": "NFR",
             "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
+            "zero_shot_cot": "NFR",
+            "raw_inst": "FR"
         }
     },
     {
@@ -170,9 +185,10 @@
         "label": "FR",
         "source": "promise_exp",
         "response": {
-            "zero_shot": "Non-Functional Requirement (NFR)",
+            "zero_shot": "NFR",
             "few_shot_cot": "FR",
-            "zero_shot_cot": null
+            "zero_shot_cot": "NFR",
+            "raw_inst": "FR"
         }
     },
     {
@@ -183,7 +199,8 @@
         "response": {
             "zero_shot": "NFR",
             "few_shot_cot": "FR",
-            "zero_shot_cot": null
+            "zero_shot_cot": "NFR",
+            "raw_inst": "FR"
         }
     },
     {
@@ -192,9 +209,10 @@
         "label": "FR",
         "source": "promise_exp",
         "response": {
-            "zero_shot": "Non-Functional Requirement",
+            "zero_shot": "NFR",
             "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
+            "zero_shot_cot": "NFR",
+            "raw_inst": "FR"
         }
     },
     {
@@ -203,9 +221,10 @@
         "label": "FR",
         "source": "promise_exp",
         "response": {
-            "zero_shot": "FR",
+            "zero_shot": "NFR",
             "few_shot_cot": "FR",
-            "zero_shot_cot": "FR"
+            "zero_shot_cot": "FR",
+            "raw_inst": "FR"
         }
     },
     {
@@ -214,9 +233,10 @@
         "label": "FR",
         "source": "promise_exp",
         "response": {
-            "zero_shot": "NFR",
+            "zero_shot": "FR",
             "few_shot_cot": "FR",
-            "zero_shot_cot": "FR"
+            "zero_shot_cot": "FR",
+            "raw_inst": "FR"
         }
     },
     {
@@ -225,9 +245,10 @@
         "label": "FR",
         "source": "promise_exp",
         "response": {
-            "zero_shot": "NFR",
+            "zero_shot": "FR",
             "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
+            "zero_shot_cot": "FR",
+            "raw_inst": "FR"
         }
     },
     {
@@ -236,9 +257,10 @@
         "label": "FR",
         "source": "promise_exp",
         "response": {
-            "zero_shot": "FR",
+            "zero_shot": "NFR",
             "few_shot_cot": "FR",
-            "zero_shot_cot": "FR"
+            "zero_shot_cot": "FR",
+            "raw_inst": "FR"
         }
     },
     {
@@ -247,9 +269,10 @@
         "label": "FR",
         "source": "promise_exp",
         "response": {
-            "zero_shot": "NFR",
+            "zero_shot": "FR",
             "few_shot_cot": "FR",
-            "zero_shot_cot": null
+            "zero_shot_cot": "FR",
+            "raw_inst": "FR"
         }
     },
     {
@@ -258,9 +281,10 @@
         "label": "FR",
         "source": "promise_exp",
         "response": {
-            "zero_shot": "NFR",
+            "zero_shot": "non-functional",
             "few_shot_cot": "FR",
-            "zero_shot_cot": "Functional Requirement"
+            "zero_shot_cot": "NFR",
+            "raw_inst": "FR"
         }
     },
     {
@@ -271,7 +295,8 @@
         "response": {
             "zero_shot": "NFR",
             "few_shot_cot": "FR",
-            "zero_shot_cot": "Non-Functional Requirement"
+            "zero_shot_cot": "FR",
+            "raw_inst": "FR"
         }
     },
     {
@@ -282,7 +307,8 @@
         "response": {
             "zero_shot": "NFR",
             "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
+            "zero_shot_cot": "NFR",
+            "raw_inst": "FR"
         }
     },
     {
@@ -291,9 +317,10 @@
         "label": "FR",
         "source": "promise_exp",
         "response": {
-            "zero_shot": "Non-Functional Requirement",
-            "few_shot_cot": null,
-            "zero_shot_cot": "NFR"
+            "zero_shot": "NFR",
+            "few_shot_cot": "FR",
+            "zero_shot_cot": "FR",
+            "raw_inst": "FR"
         }
     },
     {
@@ -302,9 +329,10 @@
         "label": "FR",
         "source": "promise_exp",
         "response": {
-            "zero_shot": "Non-Functional Requirement",
+            "zero_shot": "FR",
             "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
+            "zero_shot_cot": "NFR",
+            "raw_inst": "FR"
         }
     },
     {
@@ -314,8 +342,9 @@
         "source": "promise_exp",
         "response": {
             "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
+            "few_shot_cot": "NFR",
+            "zero_shot_cot": "NFR",
+            "raw_inst": "NFR"
         }
     },
     {
@@ -326,7 +355,8 @@
         "response": {
             "zero_shot": "NFR",
             "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
+            "zero_shot_cot": "FR",
+            "raw_inst": "FR"
         }
     },
     {
@@ -336,8 +366,9 @@
         "source": "promise_exp",
         "response": {
             "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
+            "few_shot_cot": "NFR",
+            "zero_shot_cot": "NFR",
+            "raw_inst": "NFR"
         }
     },
     {
@@ -347,8 +378,9 @@
         "source": "promise_exp",
         "response": {
             "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
+            "few_shot_cot": "NFR",
+            "zero_shot_cot": "NFR",
+            "raw_inst": "NFR"
         }
     },
     {
@@ -358,8 +390,9 @@
         "source": "promise_exp",
         "response": {
             "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
+            "few_shot_cot": "NFR",
+            "zero_shot_cot": "NFR",
+            "raw_inst": "NFR"
         }
     },
     {
@@ -369,8 +402,9 @@
         "source": "promise_exp",
         "response": {
             "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": null
+            "few_shot_cot": "NFR",
+            "zero_shot_cot": "NFR",
+            "raw_inst": "NFR"
         }
     },
     {
@@ -379,9 +413,10 @@
         "label": "NFR",
         "source": "promise_exp",
         "response": {
-            "zero_shot": null,
-            "few_shot_cot": "FR",
-            "zero_shot_cot": null
+            "zero_shot": "NFR",
+            "few_shot_cot": "NFR",
+            "zero_shot_cot": "NFR",
+            "raw_inst": "NFR"
         }
     },
     {
@@ -391,8 +426,9 @@
         "source": "promise_exp",
         "response": {
             "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": null
+            "few_shot_cot": "NFR",
+            "zero_shot_cot": "NFR",
+            "raw_inst": "NFR"
         }
     },
     {
@@ -402,8 +438,9 @@
         "source": "promise_exp",
         "response": {
             "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
+            "few_shot_cot": "NFR",
+            "zero_shot_cot": "NFR",
+            "raw_inst": "NFR"
         }
     },
     {
@@ -413,8 +450,8 @@
         "source": "promise_exp",
         "response": {
             "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
+            "few_shot_cot": "NFR",
+            "raw_inst": "NFR"
         }
     },
     {
@@ -425,7 +462,8 @@
         "response": {
             "zero_shot": "NFR",
             "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
+            "zero_shot_cot": "NFR",
+            "raw_inst": "NFR"
         }
     },
     {
@@ -435,8 +473,9 @@
         "source": "promise_exp",
         "response": {
             "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": null
+            "few_shot_cot": "NFR",
+            "zero_shot_cot": "NFR",
+            "raw_inst": "NFR"
         }
     },
     {
@@ -445,9 +484,10 @@
         "label": "NFR",
         "source": "promise_exp",
         "response": {
-            "zero_shot": "NFR",
+            "zero_shot": "FR",
             "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
+            "zero_shot_cot": "NFR",
+            "raw_inst": "NFR"
         }
     },
     {
@@ -458,7 +498,8 @@
         "response": {
             "zero_shot": "NFR",
             "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
+            "zero_shot_cot": "NFR",
+            "raw_inst": "NFR"
         }
     },
     {
@@ -468,8 +509,9 @@
         "source": "promise_exp",
         "response": {
             "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
+            "few_shot_cot": "NFR",
+            "zero_shot_cot": "NFR",
+            "raw_inst": "NFR"
         }
     },
     {
@@ -478,9 +520,10 @@
         "label": "NFR",
         "source": "promise_exp",
         "response": {
-            "zero_shot": null,
-            "few_shot_cot": null,
-            "zero_shot_cot": "NFR"
+            "zero_shot": "NFR",
+            "few_shot_cot": "NFR",
+            "zero_shot_cot": "NFR",
+            "raw_inst": "NFR"
         }
     },
     {
@@ -490,8 +533,9 @@
         "source": "promise_exp",
         "response": {
             "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
+            "few_shot_cot": "NFR",
+            "zero_shot_cot": "NFR",
+            "raw_inst": "NFR"
         }
     },
     {
@@ -500,9 +544,10 @@
         "label": "NFR",
         "source": "promise_exp",
         "response": {
-            "zero_shot": "Functional Requirement",
+            "zero_shot": "FR",
             "few_shot_cot": "FR",
-            "zero_shot_cot": "FR"
+            "zero_shot_cot": "NFR",
+            "raw_inst": "FR"
         }
     },
     {
@@ -512,8 +557,9 @@
         "source": "promise_exp",
         "response": {
             "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
+            "few_shot_cot": "NFR",
+            "zero_shot_cot": "NFR",
+            "raw_inst": "NFR"
         }
     },
     {
@@ -522,9 +568,10 @@
         "label": "NFR",
         "source": "promise_exp",
         "response": {
-            "zero_shot": "Non-Functional Requirement (NFR)",
+            "zero_shot": "NFR",
             "few_shot_cot": "FR",
-            "zero_shot_cot": null
+            "zero_shot_cot": "NFR",
+            "raw_inst": "NFR"
         }
     },
     {
@@ -535,7 +582,8 @@
         "response": {
             "zero_shot": "NFR",
             "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
+            "zero_shot_cot": "NFR",
+            "raw_inst": "NFR"
         }
     },
     {
@@ -544,9 +592,10 @@
         "label": "NFR",
         "source": "promise_exp",
         "response": {
-            "zero_shot": null,
+            "zero_shot": "NFR",
             "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
+            "zero_shot_cot": "NFR",
+            "raw_inst": "NFR"
         }
     },
     {
@@ -556,8 +605,9 @@
         "source": "promise_exp",
         "response": {
             "zero_shot": "NFR",
-            "few_shot_cot": null,
-            "zero_shot_cot": "NFR"
+            "few_shot_cot": "NFR",
+            "zero_shot_cot": "NFR",
+            "raw_inst": "NFR"
         }
     },
     {
@@ -568,7 +618,8 @@
         "response": {
             "zero_shot": "NFR",
             "few_shot_cot": "FR",
-            "zero_shot_cot": null
+            "zero_shot_cot": "NFR",
+            "raw_inst": "NFR"
         }
     },
     {
@@ -578,8 +629,9 @@
         "source": "promise_exp",
         "response": {
             "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
+            "few_shot_cot": "NFR",
+            "zero_shot_cot": "NFR",
+            "raw_inst": "NFR"
         }
     },
     {
@@ -588,9 +640,10 @@
         "label": "NFR",
         "source": "promise_exp",
         "response": {
-            "zero_shot": null,
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
+            "zero_shot": "NFR",
+            "few_shot_cot": "NFR",
+            "zero_shot_cot": "NFR",
+            "raw_inst": "NFR"
         }
     },
     {
@@ -600,8 +653,9 @@
         "source": "promise_exp",
         "response": {
             "zero_shot": "NFR",
-            "few_shot_cot": null,
-            "zero_shot_cot": "NFR"
+            "few_shot_cot": "FR",
+            "zero_shot_cot": "NFR",
+            "raw_inst": "NFR"
         }
     },
     {
@@ -612,7 +666,8 @@
         "response": {
             "zero_shot": "NFR",
             "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
+            "zero_shot_cot": "NFR",
+            "raw_inst": "NFR"
         }
     },
     {
@@ -622,8 +677,9 @@
         "source": "promise_exp",
         "response": {
             "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
+            "few_shot_cot": "NFR",
+            "zero_shot_cot": "NFR",
+            "raw_inst": "NFR"
         }
     },
     {
@@ -634,7 +690,8 @@
         "response": {
             "zero_shot": "FR",
             "few_shot_cot": "FR",
-            "zero_shot_cot": "FR"
+            "zero_shot_cot": "FR",
+            "raw_inst": "FR"
         }
     },
     {
@@ -645,7 +702,8 @@
         "response": {
             "zero_shot": "FR",
             "few_shot_cot": "FR",
-            "zero_shot_cot": "FR"
+            "zero_shot_cot": "FR",
+            "raw_inst": "FR"
         }
     },
     {
@@ -654,9 +712,10 @@
         "label": "FR",
         "source": "promise_exp",
         "response": {
-            "zero_shot": "FR",
+            "zero_shot": "NFR",
             "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
+            "zero_shot_cot": "NFR",
+            "raw_inst": "FR"
         }
     },
     {
@@ -666,8 +725,9 @@
         "source": "promise_exp",
         "response": {
             "zero_shot": "NFR",
-            "few_shot_cot": null,
-            "zero_shot_cot": "NFR"
+            "few_shot_cot": "FR",
+            "zero_shot_cot": "NFR",
+            "raw_inst": "NFR"
         }
     },
     {
@@ -677,8 +737,9 @@
         "source": "promise_exp",
         "response": {
             "zero_shot": "FR",
-            "few_shot_cot": null,
-            "zero_shot_cot": "FR"
+            "few_shot_cot": "FR",
+            "zero_shot_cot": "FR",
+            "raw_inst": "FR"
         }
     },
     {
@@ -687,9 +748,10 @@
         "label": "FR",
         "source": "promise_exp",
         "response": {
-            "zero_shot": null,
+            "zero_shot": "FR",
             "few_shot_cot": "FR",
-            "zero_shot_cot": "FR"
+            "zero_shot_cot": "FR",
+            "raw_inst": "FR"
         }
     },
     {
@@ -698,9 +760,10 @@
         "label": "FR",
         "source": "promise_exp",
         "response": {
-            "zero_shot": "Non-Functional Requirement",
+            "zero_shot": "NFR",
             "few_shot_cot": "FR",
-            "zero_shot_cot": "FR"
+            "zero_shot_cot": "NFR",
+            "raw_inst": "FR"
         }
     },
     {
@@ -711,7 +774,8 @@
         "response": {
             "zero_shot": "NFR",
             "few_shot_cot": "FR",
-            "zero_shot_cot": null
+            "zero_shot_cot": "NFR",
+            "raw_inst": "FR"
         }
     },
     {
@@ -720,9 +784,10 @@
         "label": "FR",
         "source": "promise_exp",
         "response": {
-            "zero_shot": "NFR",
+            "zero_shot": "functional",
             "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
+            "zero_shot_cot": "NFR",
+            "raw_inst": "FR"
         }
     },
     {
@@ -733,7 +798,8 @@
         "response": {
             "zero_shot": "NFR",
             "few_shot_cot": "FR",
-            "zero_shot_cot": null
+            "zero_shot_cot": "FR",
+            "raw_inst": "FR"
         }
     },
     {
@@ -744,7 +810,8 @@
         "response": {
             "zero_shot": "NFR",
             "few_shot_cot": "FR",
-            "zero_shot_cot": "Functional"
+            "zero_shot_cot": "NFR",
+            "raw_inst": "FR"
         }
     },
     {
@@ -753,9 +820,10 @@
         "label": "NFR",
         "source": "promise_exp",
         "response": {
-            "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": null
+            "zero_shot": "FR",
+            "few_shot_cot": "NFR",
+            "zero_shot_cot": "NFR",
+            "raw_inst": "NFR"
         }
     },
     {
@@ -764,9 +832,10 @@
         "label": "NFR",
         "source": "promise_exp",
         "response": {
-            "zero_shot": "Non-Functional Requirement",
+            "zero_shot": "NFR",
             "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
+            "zero_shot_cot": "FR",
+            "raw_inst": "NFR"
         }
     },
     {
@@ -777,7 +846,8 @@
         "response": {
             "zero_shot": "NFR",
             "few_shot_cot": "FR",
-            "zero_shot_cot": null
+            "zero_shot_cot": "NFR",
+            "raw_inst": "NFR"
         }
     },
     {
@@ -787,8 +857,9 @@
         "source": "promise_exp",
         "response": {
             "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
+            "few_shot_cot": "NFR",
+            "zero_shot_cot": "NFR",
+            "raw_inst": "NFR"
         }
     },
     {
@@ -798,8 +869,9 @@
         "source": "promise_exp",
         "response": {
             "zero_shot": "NFR",
-            "few_shot_cot": null,
-            "zero_shot_cot": null
+            "few_shot_cot": "NFR",
+            "zero_shot_cot": "NFR",
+            "raw_inst": "NFR"
         }
     },
     {
@@ -810,7 +882,8 @@
         "response": {
             "zero_shot": "NFR",
             "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
+            "zero_shot_cot": "NFR",
+            "raw_inst": "NFR"
         }
     },
     {
@@ -821,7 +894,8 @@
         "response": {
             "zero_shot": "NFR",
             "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
+            "zero_shot_cot": "NFR",
+            "raw_inst": "NFR"
         }
     },
     {
@@ -831,8 +905,9 @@
         "source": "promise_exp",
         "response": {
             "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
+            "few_shot_cot": "NFR",
+            "zero_shot_cot": "NFR",
+            "raw_inst": "NFR"
         }
     },
     {
@@ -842,8 +917,9 @@
         "source": "promise_exp",
         "response": {
             "zero_shot": "NFR",
-            "few_shot_cot": null,
-            "zero_shot_cot": "NFR"
+            "few_shot_cot": "FR",
+            "zero_shot_cot": "NFR",
+            "raw_inst": "NFR"
         }
     },
     {
@@ -853,8 +929,9 @@
         "source": "promise_exp",
         "response": {
             "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
+            "few_shot_cot": "NFR",
+            "zero_shot_cot": "NFR",
+            "raw_inst": "NFR"
         }
     },
     {
@@ -864,8 +941,9 @@
         "source": "promise_exp",
         "response": {
             "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
+            "few_shot_cot": "NFR",
+            "zero_shot_cot": "NFR",
+            "raw_inst": "NFR"
         }
     },
     {
@@ -875,8 +953,9 @@
         "source": "promise_exp",
         "response": {
             "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
+            "few_shot_cot": "NFR",
+            "zero_shot_cot": "NFR",
+            "raw_inst": "NFR"
         }
     },
     {
@@ -886,8 +965,9 @@
         "source": "promise_exp",
         "response": {
             "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
+            "few_shot_cot": "NFR",
+            "zero_shot_cot": "NFR",
+            "raw_inst": "NFR"
         }
     },
     {
@@ -897,8 +977,9 @@
         "source": "promise_exp",
         "response": {
             "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
+            "few_shot_cot": "NFR",
+            "zero_shot_cot": "NFR",
+            "raw_inst": "NFR"
         }
     },
     {
@@ -909,7 +990,8 @@
         "response": {
             "zero_shot": "NFR",
             "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
+            "zero_shot_cot": "NFR",
+            "raw_inst": "NFR"
         }
     },
     {
@@ -918,9 +1000,10 @@
         "label": "NFR",
         "source": "promise_exp",
         "response": {
-            "zero_shot": null,
+            "zero_shot": "NFR",
             "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
+            "zero_shot_cot": "NFR",
+            "raw_inst": "NFR"
         }
     },
     {
@@ -929,9 +1012,10 @@
         "label": "NFR",
         "source": "promise_exp",
         "response": {
-            "zero_shot": null,
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
+            "zero_shot": "NFR",
+            "few_shot_cot": "NFR",
+            "zero_shot_cot": "NFR",
+            "raw_inst": "NFR"
         }
     },
     {
@@ -942,7 +1026,8 @@
         "response": {
             "zero_shot": "NFR",
             "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
+            "zero_shot_cot": "NFR",
+            "raw_inst": "NFR"
         }
     },
     {
@@ -952,8 +1037,9 @@
         "source": "promise_exp",
         "response": {
             "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": null
+            "few_shot_cot": "NFR",
+            "zero_shot_cot": "NFR",
+            "raw_inst": "NFR"
         }
     },
     {
@@ -964,7 +1050,8 @@
         "response": {
             "zero_shot": "NFR",
             "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
+            "zero_shot_cot": "FR",
+            "raw_inst": "FR"
         }
     },
     {
@@ -975,7 +1062,8 @@
         "response": {
             "zero_shot": "NFR",
             "few_shot_cot": "FR",
-            "zero_shot_cot": null
+            "zero_shot_cot": "NFR",
+            "raw_inst": "FR"
         }
     },
     {
@@ -986,7 +1074,8 @@
         "response": {
             "zero_shot": "NFR",
             "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
+            "zero_shot_cot": "NFR",
+            "raw_inst": "FR"
         }
     },
     {
@@ -997,7 +1086,8 @@
         "response": {
             "zero_shot": "NFR",
             "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
+            "zero_shot_cot": "NFR",
+            "raw_inst": "NFR"
         }
     },
     {
@@ -1008,7 +1098,8 @@
         "response": {
             "zero_shot": "NFR",
             "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
+            "zero_shot_cot": "NFR",
+            "raw_inst": "NFR"
         }
     },
     {
@@ -1018,8 +1109,9 @@
         "source": "promise_exp",
         "response": {
             "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
+            "few_shot_cot": "NFR",
+            "zero_shot_cot": "NFR",
+            "raw_inst": "NFR"
         }
     },
     {
@@ -1030,7 +1122,8 @@
         "response": {
             "zero_shot": "NFR",
             "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
+            "zero_shot_cot": "NFR",
+            "raw_inst": "NFR"
         }
     },
     {
@@ -1040,8 +1133,9 @@
         "source": "promise_exp",
         "response": {
             "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
+            "few_shot_cot": "NFR",
+            "zero_shot_cot": "NFR",
+            "raw_inst": "NFR"
         }
     },
     {
@@ -1052,7 +1146,8 @@
         "response": {
             "zero_shot": "NFR",
             "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
+            "zero_shot_cot": "NFR",
+            "raw_inst": "NFR"
         }
     },
     {
@@ -1063,7 +1158,8 @@
         "response": {
             "zero_shot": "NFR",
             "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
+            "zero_shot_cot": "NFR",
+            "raw_inst": "NFR"
         }
     },
     {
@@ -1073,8 +1169,9 @@
         "source": "promise_exp",
         "response": {
             "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
+            "few_shot_cot": "NFR",
+            "zero_shot_cot": "NFR",
+            "raw_inst": "NFR"
         }
     },
     {
@@ -1084,8 +1181,9 @@
         "source": "promise_exp",
         "response": {
             "zero_shot": "NFR",
-            "few_shot_cot": null,
-            "zero_shot_cot": "NFR"
+            "few_shot_cot": "NFR",
+            "zero_shot_cot": "NFR",
+            "raw_inst": "NFR"
         }
     },
     {
@@ -1095,1109 +1193,610 @@
         "source": "promise_exp",
         "response": {
             "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": null
+            "few_shot_cot": "NFR",
+            "zero_shot_cot": "NFR",
+            "raw_inst": "NFR"
         }
     },
     {
         "project_id": "3",
         "requirement": "'The system shall use the organization\\92s standard virus protection software to help monitor threats to itself.'",
         "label": "NFR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": null
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "3",
         "requirement": "'A cohort shall be associated to one Program of Study offered by the department.'",
         "label": "FR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": null,
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "3",
         "requirement": "'Program Administrators and Nursing Staff Members shall be able to add a listing of students to a cohort.'",
         "label": "FR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "FR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "FR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "3",
         "requirement": "'Program Administrators and Nursing Staff Members shall be able to add a single student to a cohort'",
         "label": "FR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "FR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "FR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "3",
         "requirement": "'Students added to a cohort shall be eligible for the cohort\\92s Program of Study.'",
         "label": "FR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "3",
         "requirement": "'Program Administrators and Nursing Staff Members shall be able to specify the preferred sequence of classes for a given cohort.'",
         "label": "FR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "Non-Functional Requirement",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "3",
         "requirement": "'For each class within a sequence for a cohort  Program Administrators and Nursing Staff Members shall be able to specify which quarter that class will be offered.'",
         "label": "FR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "Non Functional Requirement",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "3",
         "requirement": "'Program Administrators and Nursing Staff Members shall be able to add new classes to a sequence of classes'",
         "label": "FR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "FR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "FR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "3",
         "requirement": "'Program Administrators and Nursing Staff Members shall be able to add clinical classes or sections to a sequence of classes'",
         "label": "FR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "FR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "FR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "3",
         "requirement": "'Program Administrators and Nursing Staff Members shall be able to add a new cohort to the system  identified by start month and year.'",
         "label": "FR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "FR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "3",
         "requirement": "'Program Administrators and Nursing Staff Members shall be able to add new classes for the nursing department into the system.'",
         "label": "FR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "FR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "FR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "3",
         "requirement": "'A class shall be either a non-clinical class or a clinical class.'",
         "label": "FR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "3",
         "requirement": "'A non-clinical class shall specify the course name  lecture room requirements  and instructor needs.'",
         "label": "FR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "3",
         "requirement": "'A clinical class shall specify the course name  lecture room requirements  clinical site needs  lecture instructor needs  and clinical lab instructor needs.'",
         "label": "FR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": null
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "3",
         "requirement": "'Program Administrators/Nursing Staff Members shall be able to create a new Program of Study.'",
         "label": "FR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": null,
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "Non-Functional Requirement (NFR)"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "3",
         "requirement": "'A Program of Study shall consist of a program name and listing of required classes (both clinical and non-clinical) that must be completed.'",
         "label": "FR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "FR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "3",
         "requirement": "'Program Administrators and Nursing Staff Members shall have the ability to specify which classes are required for a Program of Study'",
         "label": "FR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "3",
         "requirement": "'The system shall be able to display a report of needed classes for a given quarter for all cohorts of all programs for Program Administrators/Nursing Staff Members\\92 planning purposes.'",
         "label": "FR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "Functional Requirement",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "3",
         "requirement": "'The report of needed classes shall include (but not be limited to) classes to be offered  number of sections needed  number of labs needed  and room types needed.'",
         "label": "FR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "3",
         "requirement": "'Classes for a given cohort shall not conflict with regards to the time and day that they are offered.'",
         "label": "FR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "3",
         "requirement": "'Program Administrators and Nursing Staff Members shall be able to add a new clinical site into the system.'",
         "label": "FR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "FR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "FR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "3",
         "requirement": "'Clinical site information shall include (but not be limited to) the name of the site  contact person  and contact information.'",
         "label": "FR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "3",
         "requirement": "'Program Administrators and Nursing Staff Members shall be able to add a new clinical lab section for an existing clinical class into the System.'",
         "label": "FR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": null,
-            "few_shot_cot": "FR",
-            "zero_shot_cot": null
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "3",
         "requirement": "'A clinical lab section shall include the clinical site name  the class  instructor  day and time of the lab.'",
         "label": "FR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "FR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "3",
         "requirement": "'Program Administrators and Nursing Staff Members shall be able to add a student who has registered for a clinical class to a clinical lab section for that class.'",
         "label": "FR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "FR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "FR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "3",
         "requirement": "'The system shall allow a Program Administrator or Nursing staff member to remove a student from a clinical lab section.'",
         "label": "FR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "FR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "FR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "3",
         "requirement": "'The system shall allow a Program Administrator/Nursing Staff Member to move a student from one clinical lab section to another clinical lab section corresponding to the same clinical class.'",
         "label": "FR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "FR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "FR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "3",
         "requirement": "'Program Administrators/Nursing Staff Members shall be able to cancel a clinical lab section only if there are no students registered for that clinical lab section.'",
         "label": "FR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "NFR",
-            "few_shot_cot": null,
-            "zero_shot_cot": "FR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "3",
         "requirement": "'A Program Administrator/Nursing Staff Member shall be able to add a new nursing student to the system.'",
         "label": "FR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "FR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "FR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "3",
         "requirement": "'A staff member shall have the ability to manage the progress of a part time student  which includes modifying their sequence of classes and timeline of classes.'",
         "label": "FR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "3",
         "requirement": "'The system shall be able to display a printable summary for individual cohorts  which will include the students enlisted  the Program of study  sequence of classes  cohort progress through the program  and timeline of completion.'",
         "label": "FR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "FR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": null
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "3",
         "requirement": "'The system shall be able to display a printable summary for individual clinical sites  which will include information on labs being held at that site for the given quarter (Clinical site  general information on labs held at that location  dates and times of all labs held there).'",
         "label": "FR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "FR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "FR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "3",
         "requirement": "'The system shall be able to display a printable summary for individual clinical labs  which will include (but not be limited to) class name  class number  lab section  listing of students enrolled  instructor  day(s)  time  and location.'",
         "label": "FR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "FR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "FR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "3",
         "requirement": "'The system shall be able to display a printable summary for individual nursing students  which will include (but not be limited to) student name  student ID  admission date  classes  credits  GPA  and the cohort that the student is enrolled in.'",
         "label": "FR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "FR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "3",
         "requirement": "'The system shall be able to display a printable summary of the system log.'",
         "label": "FR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "3",
         "requirement": "'The system shall contain contact information (e-mail and phone number) for all people relevant to the system  including (but not limited to) staff members  students  lecture instructors  clinical lab instructors  and clinical site administrators.'",
         "label": "FR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "FR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "3",
         "requirement": "'The system will use the stored e-mail addresses as a primary means of communicating information to affected parties.'",
         "label": "FR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "3",
         "requirement": "'The system will notify affected parties for routine communication purposes  including but not limited to informing students of upcoming offered classes (timeline) and what their schedule will be/shall be.'",
         "label": "FR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "3",
         "requirement": "'The system will notify affected parties when changes occur affecting clinicals  including but not limited to clinical section capacity changes  and clinical section cancellations.'",
         "label": "FR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "3",
         "requirement": "'The system will notify affected parties when changes occur affecting classes  including but not limited to class cancellations  class section detail changes  and changes to class offerings for a given quarter.'",
         "label": "FR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "3",
         "requirement": "'The system will notify affected parties when changes occur affecting cohorts  including but not limited to changes to the sequence for a cohort\\92s program of study and changes to a given week\\92s schedule (lab cancelled this week due to instructor illness).'",
         "label": "FR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "3",
         "requirement": "'The system will notify affected parties when changes occur affecting specific students  including but not limited to changing a student\\92s status from full time to part time and moving a student to a different clinical section.'",
         "label": "FR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "3",
         "requirement": "'Program Administrators/Nursing Staff Members shall have the ability to modify information relating to cohorts including cohort identifier  program of study  preferred sequence of classes and quarters that a cohort will be taking specific classes.'",
         "label": "FR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "FR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "FR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "3",
         "requirement": "'Program Administrators/Nursing Staff Members shall have the ability to modify information relating to a Program of Study within the Nursing Department including the Program of study name  and required classes for that Program of Study.'",
         "label": "FR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "FR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "FR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "3",
         "requirement": "'Program Administrators/Nursing Staff Members shall have the ability to modify information relating to a Clinical Site  including the clinical site name  site contact person  contact information  and address.'",
         "label": "FR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": null,
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "FR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "3",
         "requirement": "'Program Administrators/Nursing Staff Members shall have the ability to modify information relating to a Clinical Lab Section  including the clinical site name the department/section for the lab  the class instructor day and time of lab and contact information.'",
         "label": "FR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "FR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "FR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "3",
         "requirement": "'Program Administrators/Nursing Staff Members shall have the ability to modify information relating to a Nursing Student  including student ID  student name phone number e-mail status (full time or part time) and program of study.'",
         "label": "FR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "FR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "FR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "4",
         "requirement": "'The Disputes application shall comply with the corporate standards for user interface creation for internally and externally used applications.'",
         "label": "NFR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "4",
         "requirement": "'All screens created as part of the Disputes application must comply with corporate standards for interface creation.'",
         "label": "NFR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": null
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "4",
         "requirement": "'The list of dispute cases that are displayed after a search is performed must be color coded for easy identification of dispute cases based upon the dispute case status.'",
         "label": "NFR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "4",
         "requirement": "'100% of the cardmember and merchant services representatives shall use the Disputes application regularly after a 2-day training course.'",
         "label": "NFR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "4",
         "requirement": "'100% of cardmember services representatives shall be able to successfully create a dispute case on the first encounter after completing the training course.'",
         "label": "NFR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "4",
         "requirement": "'100% of merchant services representatives shall be able to successfully perform a follow up action on a dispute case on the first encounter after completing the training course.'",
         "label": "NFR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "4",
         "requirement": "'The maximum wait time for a user navigating from one screen to another within the Disputes application shall be no more than 5 seconds.'",
         "label": "NFR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "4",
         "requirement": "'The Disputes application shall support 350 concurrent users without any degradation of performance in the application.'",
         "label": "NFR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "4",
         "requirement": "' The Disputes application shall be available 24x7x365  with the exception of the following scheduled maintenance windows.  Monday \\96 Saturday 3:00am to 4:00am EST Sunday 1:00amd to 5:00am EST'",
         "label": "NFR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "4",
         "requirement": "'The Disputes application shall interface with the Statement Database. The Statement Database provides the transaction details to the Disputes System. All transaction details must be obtained from the Statement Database'",
         "label": "NFR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "FR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "4",
         "requirement": "'The Disputes application shall interface with the Cardmember Information Database. The Cardmember Information Database provides detailed information with regard to a cardmember. All cardmember detail information must be obtained from the Cardmember Information Database.'",
         "label": "NFR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": null
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "4",
         "requirement": "'The Disputes applications shall interface with the Merchant Information Database. The Merchant Information Database provides detailed information with regard to the merchant. All merchant detail information shall be obtained from the Merchant Information Database.'",
         "label": "NFR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "4",
         "requirement": "'The Disputes application shall interface with the Letters application.  This will allow the Disputes application to request letters as part of the dispute initiation and dispute follow up process. All letter requests must be sent to the Print Letter Utility application.'",
         "label": "NFR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "4",
         "requirement": "'The Disputes application shall interface with the Cardmember Posting and Billing System.  This will allow the Disputes application to request adjustments to cardmember and merchant\\92s accounts. All adjustment requests must be sent to the Cardmember Posting and Billing System.'",
         "label": "NFR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": null
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "4",
         "requirement": "'The Disputes application shall ensure that only users with the appropriate access level are allowed to initiate dispute requests.'",
         "label": "NFR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "4",
         "requirement": "'Only users with Update access must be able to initiate dispute requests.'",
         "label": "NFR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "4",
         "requirement": "'The Disputes application shall ensure that only authorized users are allowed to logon to the application.'",
         "label": "NFR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "4",
         "requirement": "'All authorized users  once authenticated must be able to logon to the Disputes System'",
         "label": "NFR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "4",
         "requirement": "'The Disputes System shall generate a User Report that details any new users that have been added and any changes to an existing user\\92s access level. The report will be reviewed for auditing purposes.'",
         "label": "NFR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "4",
         "requirement": "'All additions of new users and modifications to user\\92s access shall be recorded on the User Report.'",
         "label": "NFR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "4",
         "requirement": "'If a user account is revoked  it can only be re-instantiated by the System Administrator.'",
         "label": "NFR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": null
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "4",
         "requirement": "'Only the System Administrator shall be able to reset a revoked user logon account'",
         "label": "NFR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "FR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "4",
         "requirement": "'The Disputes application shall manipulate and view business data. Users will not have direct access to data files or databases.'",
         "label": "NFR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": null,
-            "few_shot_cot": null,
-            "zero_shot_cot": null
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "4",
         "requirement": "'All updates to data files or database must be initiated from the Disputes System.'",
         "label": "NFR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "4",
         "requirement": "'The Disputes application must conform to the legal requirements as specified by the Merchant Operating Regulations.'",
         "label": "NFR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": null
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "4",
         "requirement": "'All business rules specified in the Disputes System shall be in compliance with the Merchant Operating Regulations.'",
         "label": "NFR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "4",
         "requirement": "'The Disputes application must conform to the legal requirements as specified by Regulation E and Regulation Z that govern credit card disputes processing.'",
         "label": "NFR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "4",
         "requirement": "'All business rules specified in the Disputes System shall be in compliance to the guidelines of Regulation E and Regulation Z.'",
         "label": "NFR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": null,
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "4",
         "requirement": "'The Disputes application must maintain a detailed history of every action that a user takes on a dispute case.  This ensures a complete audit trail if questions arise later on with regard to a particular dispute case.'",
         "label": "NFR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "4",
         "requirement": "'All actions that modify an existing dispute case must be recorded in the case history.'",
         "label": "NFR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "4",
         "requirement": "'The Disputes System must be accessible by both internal and external users.'",
         "label": "FR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "4",
         "requirement": "'The Disputes System must prevent users from accessing any dispute cases that do not belong to their cardholder base.'",
         "label": "FR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "NFR",
-            "few_shot_cot": null,
-            "zero_shot_cot": "NFR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "4",
         "requirement": "'The Disputes System will facilitate direct data entry of a dispute case via a user interface that supports real time responses to the users.'",
         "label": "FR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "FR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "FR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "4",
         "requirement": "'The Disputes System must provide different levels of access with regard to disputes case initiation and follow-up actions.'",
         "label": "FR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "4",
         "requirement": "'The Disputes System shall provide view access capability for authorized users of the application.'",
         "label": "FR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": null
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "4",
         "requirement": "'The Disputes System shall provide update access capability for authorized users of the application.'",
         "label": "FR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "4",
         "requirement": "'The Disputes System must allow the users to select disputable transactions (based on the age of the transaction) from a user interface and initiate a dispute (ticket retrieval request or chargeback notification) on the selected transaction.'",
         "label": "FR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "FR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "FR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "4",
         "requirement": "'The Disputes System must provide the user the ability to initiate a single dispute case on multiple transactions that belong to a single merchant.'",
         "label": "FR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "FR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": null
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "4",
         "requirement": "'The Disputes System will provide the user the ability to create or initiate a ticket retrieval request.   As part of ticket retrieval creation process the system must prompt the user to enter all the required information to create the ticket retrieval request.  The ticket retrieval request is a document that is sent to merchant inquiring the validity of a transaction.'",
         "label": "FR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "FR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "FR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "4",
         "requirement": "'The Disputes System must allow the user to create three unique types of ticket retrieval requests.  The three types of ticket retrieval requests are (1) Request for original receipt (2) Request for a copy of the receipt or (3) Request for a portfolio. A portfolio consists of documentation that would provide proof of a purchase such as the documentation that is received from a car rental agency that is more than a sales receipt.'",
         "label": "FR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": null,
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "FR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "4",
         "requirement": "'The Disputes System must prevent external users from requesting original receipts. Requests for original receipts are restricted to internal users.'",
         "label": "FR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "4",
         "requirement": "'The Disputes System must provide a confirmation to the user upon the creation of ticket retrieval request that contains the following information; the dispute case number  the type of retrieval requested (copy  original or portfolio)  and the date that the merchant response is due.'",
         "label": "FR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "FR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "4",
         "requirement": "'The Disputes System shall allow the user to create or initiate a chargeback request.  The system must prompt the user to enter the required information to initiate a chargeback request. The chargeback request results in a printed chargeback notification that is sent to merchant indicating that their account will be charged back if no proof is provided that the disputed transaction is valid.'",
         "label": "FR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "FR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "4",
         "requirement": "'The Disputes System must provide a confirmation to the user upon the creation of a chargeback request. The confirmation must contain the following information; the dispute case number  the type of chargeback requested (pending or immediate)  and the date that the merchant response is due.'",
         "label": "FR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": null
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "4",
         "requirement": "'The Disputes System shall prevent the creation of duplicate dispute requests 100% of the time.'",
         "label": "FR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "4",
         "requirement": "'The Disputes System shall accurately provide a list of possible reason codes for a given transaction.  The list of possible reason codes must be derived based on the type of transaction and the industry that the merchant belongs to  according to the business rules defined for the Disputes System.'",
         "label": "FR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "FR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "4",
         "requirement": "'The Disputes System must provide the ability to view existing dispute cases.'",
         "label": "FR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "FR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "FR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "4",
         "requirement": "'The Disputes System must provide Search functionality.  The search method must include the ability to search by (1) the dispute case number  (2) the merchant account number  (3) the cardmember account number and (4) the issuer number.  In addition to the above criteria  the search functionality must further allow the user to limit the results of the search by a date range  the type of dispute (ticket retrieval request or chargeback notification)  the case status (open  closed or all) and the dispute reason code.'",
         "label": "FR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "FR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": null
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "4",
         "requirement": "'A list of all disputes cases that meet the entered search criteria must be provided to the user.  The list of cases must differentiate the type and/or status of the case by color -coding the line item in the list.  For example all open cases will be yellow and all closed cases will be gray.'",
         "label": "FR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "Non-Functional Requirement",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "4",
         "requirement": "'The Disputes System shall provide the users the ability to view the history of all activities that have occurred on the dispute case.'",
         "label": "FR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "4",
         "requirement": "'The Dispute System shall provide the users with the ability to follow up on a dispute case via follow-up actions.  The list of available follow up actions for a given dispute case must be filtered by the status of the case and the access level of the user.'",
         "label": "FR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "4",
         "requirement": "'The Disputes System shall record the name of the user and the date for any activity that creates or modifies the disputes case in the system.  A detailed history of the actions taken on the case  including the date and the user that performed the action must be maintained for auditing purposes.'",
         "label": "FR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": "NFR"
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "4",
         "requirement": "'For any systematic (non-user initiated) action that occurs on a case such as the disputes aging process  a case activity will be generated.  Upon the next logon the user that initiated the dispute case must be notified that a systematic action has occurred on the dispute case.'",
         "label": "FR",
-        "source": "promise_exp",
-        "response": {
-            "zero_shot": "NFR",
-            "few_shot_cot": "FR",
-            "zero_shot_cot": null
-        }
+        "source": "promise_exp"
     },
     {
         "project_id": "4",
@@ -3533,7 +3132,7 @@
     },
     {
         "project_id": "8",
-        "requirement": "'Velkat staff will be available for phone support between 7am-7pm  M-F to provide technical support to the Izogn administrators.'",
+        "requirement": "'Velkat staff will be available for phone support between 7am-7pm  M-FR to provide technical support to the Izogn administrators.'",
         "label": "NFR",
         "source": "promise_exp"
     },
