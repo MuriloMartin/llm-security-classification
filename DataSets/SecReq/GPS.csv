@@ -175,4 +175,3 @@ Depending on the relevant privileges of the requesting entity, the following ser
  Each Executable Load File or Executable Module is associated with an AID that shall be unique on the card.;nonsec
  An Application AID may be the same as that of an Executable Module but may not be the same as that of an Executable Load File or the same as another Application already present in the GlobalPlatform Registry.;nonsec
  This AID may be specified in a SELECT command to select the Application. It is not possible to select Executable Load Files or Executable Modules.;nonsec
- ;
