@@ -40,6 +40,8 @@ def treat_sec_req(consolidated_data):
             for line in lines:
                 output = line.split(';')
                 label = output[1].strip()
+                if label == "xyz":
+                    continue
                 consolidated_data.append({'project_id': 50+i, 'requirement': output[0], 'label':label, 'source': 'SecReq'})
 
     return consolidated_data

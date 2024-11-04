@@ -18,39 +18,37 @@ def prompt_factory(requirement: str, strategy: str) -> dict:
     user_msg = ''
 
     if strategy == 'zero_shot':
-        user_msg = f"For the given requirement: {requirement} label it as a functional (FR) or non functional requirement (NFR). Return the result as a JSON with the following format: {{'label': 'NFR OR FR}}"
+        user_msg = f"For the given requirement: {requirement} label it as a security-related requirement (sec) or non security-related requirement (nonsec). Return the result as a JSON with the following format: {{'label': 'sec' OR 'nonsec'}}"
     
-    if strategy == 'few_shot_cot':
+    if strategy =='few_shot':
         req1 = 'Every user of the system shall be authenticated and authorized.'
         req2 = 'The product shall allow the user to save the property search results.'
-        user_msg = f"user_1= For the given requirement: {req1}  label it as a functional (FR) or non functional requirement (NFR). Return the result as a JSON with the following format: {{'label': 'NFR OR FR}} \
-        This requirement falls under the category of NFR. It specifically addresses the aspect of ensuring the integrity of the system's data by preventing incorrect data from being introduced, which is crucial for maintaining data accuracy and reliability, thereby safeguarding against potential security threats such as data corruption or manipulation. \
-        response_1: {{'label': 'NFR}} \
-        user_2= For the given requirement: {req2}  label it as a functional (FR) or non functional requirement (NFR). Return the result as a JSON with the following format: {{'label': 'NFR OR FR}} \
-        This requirement is a Functional Requirement (FR). \
-        Functional requirements describe the specific behaviors or functions of a system, detailing what the system should do. In this case, saving property search results is a specific function that the system must perform. \
-        response_2: {{'label': 'FR}} \
-        user_3= For the given requirement: {requirement} label it as a functional (FR) or non functional requirement (NFR). Return the result as a JSON with the following format: {{'label': 'NFR OR FR}}. response_3: "
+        user_msg = f"user_1= For the given requirement: {req1} label it as a security-related requirement (sec) or non security-related requirement (nonsec). Return the result as a JSON with the following format: {{'label': 'sec' OR 'nonsec'}} \
+        response_1: {{'label': 'sec'}} \
+        user_2= For the given requirement: {req2} label it as a security-related requirement (sec) or non security-related requirement (nonsec). Return the result as a JSON with the following format: {{'label': 'sec' OR 'nonsec'}} \
+        response_2: {{'label': 'nonsec'}} \
+        user_3= For the given requirement: {requirement} label it as a security-related requirement (sec) or non security-related requirement (nonsec). Return the result as a JSON with the following format: {{'label': 'sec' OR 'nonsec'}}. \
+        response_3: "
         
-    
-    if strategy =='zero_shot_cot':
-        user_msg = f"For the given requirement: {requirement} label it as a functional (FR) or non functional requirement (NFR).Lets think step by step. Return the result as a JSON with the following format: {{'label': 'NFR OR FR}}"
+    if strategy == 'Few_Shot_Cot':
+        req1 = 'Every user of the system shall be authenticated and authorized.'
+        req2 = 'The product shall allow the user to save the property search results.'
+        user_msg = f"user_1= For the given requirement: {req1}  label it as a security-related requirement (sec) or non security-related requirement (nonsec). Lets think step by step.Return the result as a JSON with the following format: {{'label': 'sec' OR 'nonsec'}} \
+        This requirement falls under the category of security-related requirement. Reasoning: It specifically addresses core aspects of security by ensuring that users are who they claim to be and that they have the appropriate permissions to perform actions within the system. \
+        response_1: {{'label': 'sec'}} \
+        user_2= For the given requirement: {req2}  label it as a security-related requirement (sec) or non security-related requirement (nonsec). Lets think step by step. Return the result as a JSON with the following format: {{'label': 'sec' OR 'nonsec'}} \
+        This requirement is a non security-related requirement (nonsec). \
+        While the requirement is essential for functionality, it does not explicitly address security concerns and is therefore classified as a functional requirement rather than a security-related requirement. If security measures were explicitly stated, such as ensuring that saved results are encrypted or accessible only to authenticated users, then it could be classified as security-related.
+        response_2: {{'label': 'nonsec'}} \
+        user_3= For the given requirement: {requirement} label it as a security-related requirement (sec) or non security-related requirement (nonsec). Return the result as a JSON with the following format: {{'label': 'sec' OR 'nonsec'}}. \
+        response_3: "
+        
         
     if strategy == 'raw_inst':
-        user_msg = f"You are an expert in requirements engineering.  You are tasked with with the classification of non functinal  requierments for a software project. You should consider 2 types  of  requirements: functional (FR) and non functional (NFR) requirements. Functional requirements specify what a system should do, detailing the necessary tasks, behaviors, and functions, while non-functional requirements define the system's quality attributes, such as performance, usability, reliability, and security, ensuring the system's operational standards are met. \
-        For the given requierment: {requirement}  label it as a functional (FR) or non functional requirement (NFR). Return the result as a JSON with the following format: {{'label': 'NFR OR FR}}"
+        user_msg = f"You are an expert in requirements engineering.  You are tasked with with the classification of requierments for a software project. You should consider 2 types  of  requirements: security-related requirement (sec) and non security-related requirements (nonsec). Security-related requirements are those that explicitly address the protection of a system's data, resources, and functionalities from unauthorized access, threats, or vulnerabilities. They encompass aspects such as user authentication, data encryption, access controls, and compliance with security standards. In contrast, non-security-related requirements pertain to the general functionality and performance of a system without specific considerations for security. These may include operational features, usability, and system performance metrics that do not inherently involve safeguarding against security risks. \
+        For the given requierment: {requirement}  label it as a security-related requirement (sec) or non security-related requirement (nonsec). Return the result as a JSON with the following format: {{'label': 'sec' OR 'nonsec'}}"
 
-    # if strategy == 'sys_inst':
-    #     sys_msg = "You are an expert in requirements engineering. You are tasked with with the classification of non functinal requierments for a software project. You should consider  2 types  of  requirements: functional (FR) and non functional (NFR) requirements. Answer in the following format: Number , Label"
-    #     user_msg = f"For the given requierment: {requirement} label it as a functional (FR) or non functional requirement (NFR)."
-        
-    # if strategy == 'both_inst':
-    #     sys_msg = "You are an expert in requirements engineering. You are tasked with with the classification of non functinal requierments for a software project. You should consider  2 types  of  requirements: functional (FR) and non functional (NFR) requirements."
-    #     user_msg = f"Functional requirements specify what a system should do, detailing the necessary tasks, behaviors, and functions, while non-functional requirements define the system's quality attributes, such as performance, usability, reliability, and security, ensuring the system's operational standards are met. For the given requierment: {requirement} label it as a functional (FR) or non functional requirement (NFR). "
- 
-        
 
-        
     return {'sys_msg': sys_msg, 'user_msg':user_msg}
         
 strategys = ['zero_shot', 'few_shot_cot', 'zero_shot_cot', 'raw_inst']       
