@@ -1,0 +1,255 @@
+[
+    {
+        "reponse": {
+            "label": "nonsec"
+        },
+        "status": "ok"
+    },
+    {
+        "reponse": {
+            "label": "nonsec"
+        },
+        "status": "ok"
+    },
+    {
+        "reponse": {
+            "requirement": "The system shall refresh the display every 60 seconds.",
+            "label": "nonsec"
+        },
+        "status": "ok"
+    },
+    {
+        "reponse": {
+            "label": "nonsec"
+        },
+        "status": "ok"
+    },
+    {
+        "reponse": {
+            "label": "sec"
+        },
+        "status": "ok"
+    },
+    {
+        "reponse": {
+            "label": "sec"
+        },
+        "status": "ok"
+    },
+    {
+        "reponse": {
+            "label": "sec"
+        },
+        "status": "ok"
+    },
+    {
+        "reponse": {
+            "label": "sec"
+        },
+        "status": "ok"
+    },
+    {
+        "reponse": {
+            "label": "nonsec"
+        },
+        "status": "ok"
+    },
+    {
+        "reponse": {
+            "label": "nonsec"
+        },
+        "status": "ok"
+    },
+    {
+        "reponse": {
+            "model": "llama3",
+            "created_at": "2024-11-25T13:41:26.4858235Z",
+            "response": "{ \"requirement\": \"If projected data must be readable. On a 10x10 projection screen, 90% of viewers must be able to read Event/Activity data from a viewing distance of 30', 'label': 'nonsec' }\"\n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n",
+            "done": false
+        },
+        "status": "error"
+    },
+    {
+        "reponse": {
+            "label": "nonsec"
+        },
+        "status": "ok"
+    },
+    {
+        "reponse": {
+            "label": "nonsec"
+        },
+        "status": "ok"
+    },
+    {
+        "reponse": {
+            "label": "nonsec"
+        },
+        "status": "ok"
+    },
+    {
+        "reponse": {
+            "label": "nonsec"
+        },
+        "status": "ok"
+    },
+    {
+        "reponse": {
+            "label": "nonsec"
+        },
+        "status": "ok"
+    },
+    {
+        "reponse": {
+            "label": "nonsec"
+        },
+        "status": "ok"
+    },
+    {
+        "reponse": {
+            "label": "nonsec"
+        },
+        "status": "ok"
+    },
+    {
+        "reponse": {
+            "requirement": "If projected data must be understandable. On a 10x10 projection screen, 90% of viewers must be able to determine that Events or Activities are occurring in current time from a viewing distance of 100'...",
+            "label": "nonsec"
+        },
+        "status": "ok"
+    },
+    {
+        "reponse": {
+            "label": "nonsec"
+        },
+        "status": "ok"
+    },
+    {
+        "reponse": {
+            "label": "sec"
+        },
+        "status": "ok"
+    },
+    {
+        "reponse": {
+            "label": "sec"
+        },
+        "status": "ok"
+    },
+    {
+        "reponse": {
+            "label": "sec"
+        },
+        "status": "ok"
+    },
+    {
+        "reponse": {
+            "label": "sec"
+        },
+        "status": "ok"
+    },
+    {
+        "reponse": {
+            "requirement": "The product shall be intuitive and self-explanatory. 90% of new users shall be able to start the display of Events or Activities within 90 minutes of using the product.",
+            "label": "nonsec"
+        },
+        "status": "ok"
+    },
+    {
+        "reponse": {
+            "label": "nonsec"
+        },
+        "status": "ok"
+    },
+    {
+        "reponse": {
+            "requirement": "The product shall be intuitive and self-explanatory. 90% of new users shall be able to start the display of Events or Activities within 90 minutes of using the product.",
+            "label": "nonsec"
+        },
+        "status": "ok"
+    },
+    {
+        "reponse": {
+            "label": "nonsec"
+        },
+        "status": "ok"
+    },
+    {
+        "reponse": {
+            "label": "nonsec"
+        },
+        "status": "ok"
+    },
+    {
+        "reponse": {
+            "label": "nonsec"
+        },
+        "status": "ok"
+    },
+    {
+        "reponse": {
+            "requirement": "The product shall respond fast to keep up-to-date data in the display.",
+            "label": "nonsec"
+        },
+        "status": "ok"
+    },
+    {
+        "reponse": {
+            "label": "nonsec"
+        },
+        "status": "ok"
+    },
+    {
+        "reponse": {
+            "requirement": "The system shall have a MDI form that allows for the viewing of the graph and the data table.",
+            "label": "nonsec"
+        },
+        "status": "ok"
+    },
+    {
+        "reponse": {
+            "label": "nonsec"
+        },
+        "status": "ok"
+    },
+    {
+        "reponse": {
+            "requirement": "The system shall have a MDI form that allows for the viewing of the graph and the data table.",
+            "result": {
+                "label": "nonsec"
+            }
+        },
+        "status": "ok"
+    },
+    {
+        "reponse": {
+            "label": "nonsec"
+        },
+        "status": "ok"
+    },
+    {
+        "reponse": {
+            "label": "nonsec"
+        },
+        "status": "ok"
+    },
+    {
+        "reponse": {
+            "label": "nonsec"
+        },
+        "status": "ok"
+    },
+    {
+        "reponse": {
+            "requirement": "The system shall display Events in a vertical table by time.",
+            "label": "nonsec"
+        },
+        "status": "ok"
+    },
+    {
+        "reponse": {
+            "label": "nonsec"
+        },
+        "status": "ok"
+    }
+]
