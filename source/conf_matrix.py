@@ -33,16 +33,15 @@ def plot_confusion_matrix(cm, report, strategy , labels):
     plt.text(0.5, 0.5, report, ha='center', va='center', fontsize=12)
     plt.show()
 
-def confusion_matrix_for_models(file_path, labels,sample_size, model_name ):
+def confusion_matrix_for_models(file_path, labels, model_name ):
     with open(f'{file_path}', encoding='utf-8') as f:
         data = json.load(f)
-        data = data[:sample_size]
-        
     df = pd.DataFrame(data)
     #print(df['response'])
     for strategy in strategys:
         df[strategy] = df['response'].apply(lambda x: x[strategy] if strategy in x else 'undefined')
 
+    print(df.head())
     df = df[df['label'].isin(labels)]
 
     
@@ -50,7 +49,7 @@ def confusion_matrix_for_models(file_path, labels,sample_size, model_name ):
     report_text = ''
     for strategy in strategys:
         df_temp['predicted_label'] = df_temp[strategy]
-        df_temp = df_temp[df_temp['predicted_label'].isin(labels)]  # Filtrando apenas as polaridades esperadas
+        df_temp = df_temp[df_temp['predicted_label'].isin(labels)]  
         df_temp.to_csv(f'{model_name}_{strategy}.csv', index=False)
         cm = confusion_matrix(df_temp['label'], df_temp['predicted_label'], labels=labels)
         report = classification_report(df_temp['label'], df_temp['predicted_label'], target_names=labels)
@@ -62,15 +61,14 @@ def confusion_matrix_for_models(file_path, labels,sample_size, model_name ):
     return report_text
 
 def main():
-    labels = ['NFR', 'FR']
-    sample_size = 100
+    labels = ['sec', 'nonsec']
     models = ['llama3','mistral', 'gemma']
     report_text = ''
     for model in models:
-        path = rf'C:\Users\Murilo\Desktop\Projetos\TCC\DataSets\Promise_exp\results\{model}.json'
-        report_text += confusion_matrix_for_models(path, labels, sample_size, model)
+        path = rf'C:\Users\Murilo\Desktop\Projetos\TCC\results\{model}.json'
+        report_text += confusion_matrix_for_models(path, labels, model)
         # Save the report to a .txt file
-    with open(rf'C:\Users\Murilo\Desktop\Projetos\TCC\DataSets\Promise_exp\results\report.txt', "w") as file:
+    with open(rf'C:\Users\Murilo\Desktop\Projetos\TCC\results\report.txt', "w+") as file:
         file.write(report_text)
     
 

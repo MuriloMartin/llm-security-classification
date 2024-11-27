@@ -55,6 +55,7 @@ def prompt_factory(requirement: str, strategy: str) -> dict:
     return {'sys_msg': sys_msg, 'user_msg':user_msg}
         
 strategys = ['zero_shot', 'few_shot', 'zero_shot_cot', 'raw_inst']       
+     
     
 
 if __name__ == '__main__':
