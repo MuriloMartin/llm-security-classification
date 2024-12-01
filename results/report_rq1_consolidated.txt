@@ -1,0 +1,39 @@
+Confusion Matrix for llama3 - zero_shot:
+[[295  12]
+ [215 935]]
+Classification Report for llama3 - zero_shot:
+              precision    recall  f1-score   support
+
+         sec       0.58      0.96      0.72       307
+      nonsec       0.99      0.81      0.89      1150
+
+    accuracy                           0.84      1457
+   macro avg       0.78      0.89      0.81      1457
+weighted avg       0.90      0.84      0.86      1457
+
+Confusion Matrix for mistral - zero_shot:
+[[295   8]
+ [273 883]]
+Classification Report for mistral - zero_shot:
+              precision    recall  f1-score   support
+
+         sec       0.52      0.97      0.68       303
+      nonsec       0.99      0.76      0.86      1156
+
+    accuracy                           0.81      1459
+   macro avg       0.76      0.87      0.77      1459
+weighted avg       0.89      0.81      0.82      1459
+
+Confusion Matrix for gemma - zero_shot:
+[[ 312    0]
+ [1039  125]]
+Classification Report for gemma - zero_shot:
+              precision    recall  f1-score   support
+
+         sec       0.23      1.00      0.38       312
+      nonsec       1.00      0.11      0.19      1164
+
+    accuracy                           0.30      1476
+   macro avg       0.62      0.55      0.28      1476
+weighted avg       0.84      0.30      0.23      1476
+
