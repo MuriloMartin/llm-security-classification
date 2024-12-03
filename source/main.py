@@ -3,6 +3,10 @@ import ollama
 from tqdm.auto import tqdm
 from prompt import prompt_factory, strategys
 client = ollama.Client(host='http://localhost:11434')
+from openai import OpenAI
+client_openAI = OpenAI()
+
+
 
 def extract_label(response):
     if 'label' in response:
@@ -13,8 +17,44 @@ def extract_label(response):
     #for few shot strategy
     if "user_3" in response and 'label' in response['user_3']:
         return response['user_3']['label']
+
+def classify_req_openAI(user_prompt, model, response_logs):
+    completion = client_openAI.chat.completions.create(
+    model=model,
+    temperature=0,
+    messages=[
+        {
+            "role": "user",
+            "content": f"{user_prompt}"
+        }
+        ],
+    response_format={
+        "type": "json_schema",
+        "json_schema": {
+            "name": "classify_req_openAI",
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "label": {
+                        "description": "The predited label",
+                        "type": "string"
+                    },
+                    "additionalProperties": False
+                }
+            }
+        }
+    }
+    )
+    response = json.loads(completion.choices[0].message.content)
+    response_logs.append(response) 
+    label = extract_label(response)
+    return label
     
-def classify_req(user_proompt, model, response_logs):
+    
+       
+def classify_req(user_prompt, model, response_logs):
+        if 'gpt' in model:
+            return classify_req_openAI(user_prompt, model, response_logs)
         while True:
             try:
                 model_output = ollama.generate(
@@ -22,11 +62,9 @@ def classify_req(user_proompt, model, response_logs):
                 format="json",
                 options={
                     "temperature": 0,
-                    "num_ctx": 8192,
-                    "num_predict": -1
                 },
                 stream=False,
-                prompt=f"""{user_proompt}"""
+                prompt=f"""{user_prompt}"""
             )
             except:
                 continue
@@ -44,13 +82,13 @@ def classify_req(user_proompt, model, response_logs):
             return None
 
 if __name__ == '__main__':
-    models = ['llama3','mistral', 'gemma']
+    models = ['gpt-4o-mini' ]
     path = r'C:\Users\Murilo\Desktop\Projetos\TCC\ConsolidatedData\data.json'
 
     for model in models:
         response_logs = []
-        response_logs_path = rf'C:\Users\Murilo\Desktop\Projetos\TCC\results\response_logs_{model}.json'
-        output_path = rf'C:\Users\Murilo\Desktop\Projetos\TCC\results\{model}.json'
+        response_logs_path = rf'C:\Users\Murilo\Desktop\Projetos\TCC\results\logs\response_logs_{model.replace(":","_")}.json'
+        output_path = rf'C:\Users\Murilo\Desktop\Projetos\TCC\results\{model.replace(":","_")}.json'
         with open(path, 'r') as file:
             data = json.load(file)
         sample_size = len(data)
@@ -65,10 +103,10 @@ if __name__ == '__main__':
 
                 i['response'][strategy] = response
         
-        with open(output_path, 'w+') as file:
-            json.dump(data[:sample_size], file, indent=4)
-        with open(response_logs_path, 'w+') as file:
-            json.dump(response_logs, file, indent=4)
+                with open(output_path, 'w+') as file:
+                    json.dump(data[:sample_size], file, indent=4)
+                with open(response_logs_path, 'w+') as file:
+                    json.dump(response_logs, file, indent=4)
 
 
 
