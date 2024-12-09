@@ -5,7 +5,7 @@ import json
 import matplotlib.pyplot as plt
 import seaborn as sns
 from prompt import strategys
-from eda import rq1_eda, rq2_eda
+from eda import rq1_eda, rq2_eda, rq2_best_improvement
 
 def get_files_names():
     folder_path = 'data'
@@ -134,9 +134,10 @@ def main():
     labels = ['sec', 'nonsec']
     models = ['gpt-4o-mini','llama3.2-vision','llama3.1','mistral-small', 'mistral-nemo','gemma2_27b', 'gemma2_9b' ,'llama3','mistral', 'gemma']
     df_rq1 = get_rq1_consolidated_result(labels, models)
-    rq1_eda(df_rq1)
-    # df_rq2 = get_rq2_consolidated_result(labels, models)
-    # rq2_eda(df_rq2)
+    #rq1_eda(df_rq1)
+    df_rq2 = get_rq2_consolidated_result(labels, models)
+    #rq2_eda(df_rq2)
+    rq2_best_improvement(df_rq1,df_rq2)
     
 
 if __name__ == "__main__":
