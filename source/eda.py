@@ -114,10 +114,23 @@ def rq2_improvement_by_strategy(df_1,df_2):
     desired_order = ['few_shot', 'zero_shot_cot', 'raw_inst']
     strategy_order = pd.CategoricalDtype(categories=desired_order, ordered=True)
     df = df.reorder_levels(['strategy', 'model']).sort_index(level='strategy', key=lambda x: x.astype(strategy_order))
-    print(df)
 
-    latex_df = df.to_latex(index=True, caption="Difference in accuracy by strategy compared to the baseline approach",label="tab:accuracyDiff", float_format="%.2f", na_rep="NA")
-    print('latex_diff_nonsec\n',latex_df.replace('_', r'-').replace('zero-shot-cot','auto-CoT'))
+        # Initialize an empty list to store dataframes
+    dfs_with_averages = []
+
+    for strategy, group in df.groupby(level='strategy'):
+        averages = group.mean(numeric_only=True)
+        averages_row = pd.DataFrame([averages], index=pd.MultiIndex.from_tuples([(strategy, 'Average')], names=df.index.names))
+        group_with_average = pd.concat([group, averages_row])
+        dfs_with_averages.append(group_with_average)
+
+    df_with_averages = pd.concat(dfs_with_averages)
+    df_with_averages = df_with_averages.reorder_levels(['strategy', 'model']).sort_index(level='strategy', key=lambda x: x.astype(strategy_order))
+
+    print(df_with_averages)
+
+    latex_df = df_with_averages.to_latex(index=True, caption="Difference in accuracy by strategy compared to the baseline approach",label="tab:accuracyDiff", float_format="%.2f", na_rep="NA")
+    print('latex_diff_nonsec\n',latex_df.replace('_', r'-').replace('zero-shot-cot','auto-CoT').replace('gemma2_27b','gemma2'))
 
 def rq3_individual(df):
     df_orig = df.copy()
@@ -133,10 +146,13 @@ def rq3_individual(df):
 
 def rq3_consolidated(df):
     df_orig = df.copy()
-    print("Top SECReq approaches for for class sec")
     df = df_orig[df_orig['class'] == 'sec']
     df.sort_values(by=['f1_score'], ascending=False, inplace=True)
-    print(df.head(10))
+    # df = df.drop(columns=['support, class'])
+    df = df[['model','strategy','precision','recall', 'f1_score']]
+    df = df.head(5)
+    latex_df = df.to_latex(index=False, caption="5 most accurate models and strategys for the SecReq dataset",label="tab:most_acurate_seqreq", float_format="%.2f", na_rep="NA")
+    print(latex_df)
     
 
 
