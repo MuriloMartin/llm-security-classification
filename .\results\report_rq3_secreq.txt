@@ -1,0 +1,351 @@
+Confusion Matrix for gemma - few_shot :
+[[186   0]
+ [316   5]]
+Classification Report for gemma - few_shot :
+              precision    recall  f1-score   support
+
+         sec       0.37      1.00      0.54       186
+      nonsec       1.00      0.02      0.03       321
+
+    accuracy                           0.38       507
+   macro avg       0.69      0.51      0.29       507
+weighted avg       0.77      0.38      0.22       507
+
+Confusion Matrix for gemma2_27b - few_shot :
+[[187   0]
+ [238  85]]
+Classification Report for gemma2_27b - few_shot :
+              precision    recall  f1-score   support
+
+         sec       0.44      1.00      0.61       187
+      nonsec       1.00      0.26      0.42       323
+
+    accuracy                           0.53       510
+   macro avg       0.72      0.63      0.51       510
+weighted avg       0.79      0.53      0.49       510
+
+Confusion Matrix for gpt-4o-mini - few_shot :
+[[187   0]
+ [188 135]]
+Classification Report for gpt-4o-mini - few_shot :
+              precision    recall  f1-score   support
+
+         sec       0.50      1.00      0.67       187
+      nonsec       1.00      0.42      0.59       323
+
+    accuracy                           0.63       510
+   macro avg       0.75      0.71      0.63       510
+weighted avg       0.82      0.63      0.62       510
+
+Confusion Matrix for llama3 - few_shot :
+[[186   1]
+ [237  86]]
+Classification Report for llama3 - few_shot :
+              precision    recall  f1-score   support
+
+         sec       0.44      0.99      0.61       187
+      nonsec       0.99      0.27      0.42       323
+
+    accuracy                           0.53       510
+   macro avg       0.71      0.63      0.51       510
+weighted avg       0.79      0.53      0.49       510
+
+Confusion Matrix for llama3.1 - few_shot :
+[[187   0]
+ [267  56]]
+Classification Report for llama3.1 - few_shot :
+              precision    recall  f1-score   support
+
+         sec       0.41      1.00      0.58       187
+      nonsec       1.00      0.17      0.30       323
+
+    accuracy                           0.48       510
+   macro avg       0.71      0.59      0.44       510
+weighted avg       0.78      0.48      0.40       510
+
+Confusion Matrix for llama3.2-vision - few_shot :
+[[186   1]
+ [236  87]]
+Classification Report for llama3.2-vision - few_shot :
+              precision    recall  f1-score   support
+
+         sec       0.44      0.99      0.61       187
+      nonsec       0.99      0.27      0.42       323
+
+    accuracy                           0.54       510
+   macro avg       0.71      0.63      0.52       510
+weighted avg       0.79      0.54      0.49       510
+
+Confusion Matrix for mistral - few_shot :
+[[187   0]
+ [194 129]]
+Classification Report for mistral - few_shot :
+              precision    recall  f1-score   support
+
+         sec       0.49      1.00      0.66       187
+      nonsec       1.00      0.40      0.57       323
+
+    accuracy                           0.62       510
+   macro avg       0.75      0.70      0.61       510
+weighted avg       0.81      0.62      0.60       510
+
+Confusion Matrix for mistral-nemo - few_shot :
+[[185   2]
+ [162 161]]
+Classification Report for mistral-nemo - few_shot :
+              precision    recall  f1-score   support
+
+         sec       0.53      0.99      0.69       187
+      nonsec       0.99      0.50      0.66       323
+
+    accuracy                           0.68       510
+   macro avg       0.76      0.74      0.68       510
+weighted avg       0.82      0.68      0.67       510
+
+Confusion Matrix for mistral-small - few_shot :
+[[187   0]
+ [191 132]]
+Classification Report for mistral-small - few_shot :
+              precision    recall  f1-score   support
+
+         sec       0.49      1.00      0.66       187
+      nonsec       1.00      0.41      0.58       323
+
+    accuracy                           0.63       510
+   macro avg       0.75      0.70      0.62       510
+weighted avg       0.81      0.63      0.61       510
+
+Confusion Matrix for gemma - zero_shot_cot :
+[[187   0]
+ [322   1]]
+Classification Report for gemma - zero_shot_cot :
+              precision    recall  f1-score   support
+
+         sec       0.37      1.00      0.54       187
+      nonsec       1.00      0.00      0.01       323
+
+    accuracy                           0.37       510
+   macro avg       0.68      0.50      0.27       510
+weighted avg       0.77      0.37      0.20       510
+
+Confusion Matrix for gemma2_27b - zero_shot_cot :
+[[161   2]
+ [227  68]]
+Classification Report for gemma2_27b - zero_shot_cot :
+              precision    recall  f1-score   support
+
+         sec       0.41      0.99      0.58       163
+      nonsec       0.97      0.23      0.37       295
+
+    accuracy                           0.50       458
+   macro avg       0.69      0.61      0.48       458
+weighted avg       0.77      0.50      0.45       458
+
+Confusion Matrix for gpt-4o-mini - zero_shot_cot :
+[[186   1]
+ [182 141]]
+Classification Report for gpt-4o-mini - zero_shot_cot :
+              precision    recall  f1-score   support
+
+         sec       0.51      0.99      0.67       187
+      nonsec       0.99      0.44      0.61       323
+
+    accuracy                           0.64       510
+   macro avg       0.75      0.72      0.64       510
+weighted avg       0.81      0.64      0.63       510
+
+Confusion Matrix for llama3 - zero_shot_cot :
+[[168   6]
+ [146 157]]
+Classification Report for llama3 - zero_shot_cot :
+              precision    recall  f1-score   support
+
+         sec       0.54      0.97      0.69       174
+      nonsec       0.96      0.52      0.67       303
+
+    accuracy                           0.68       477
+   macro avg       0.75      0.74      0.68       477
+weighted avg       0.81      0.68      0.68       477
+
+Confusion Matrix for llama3.1 - zero_shot_cot :
+[[132   4]
+ [135 100]]
+Classification Report for llama3.1 - zero_shot_cot :
+              precision    recall  f1-score   support
+
+         sec       0.49      0.97      0.66       136
+      nonsec       0.96      0.43      0.59       235
+
+    accuracy                           0.63       371
+   macro avg       0.73      0.70      0.62       371
+weighted avg       0.79      0.63      0.61       371
+
+Confusion Matrix for llama3.2-vision - zero_shot_cot :
+[[96  0]
+ [89 85]]
+Classification Report for llama3.2-vision - zero_shot_cot :
+              precision    recall  f1-score   support
+
+         sec       0.52      1.00      0.68        96
+      nonsec       1.00      0.49      0.66       174
+
+    accuracy                           0.67       270
+   macro avg       0.76      0.74      0.67       270
+weighted avg       0.83      0.67      0.67       270
+
+Confusion Matrix for mistral - zero_shot_cot :
+[[176   4]
+ [200 109]]
+Classification Report for mistral - zero_shot_cot :
+              precision    recall  f1-score   support
+
+         sec       0.47      0.98      0.63       180
+      nonsec       0.96      0.35      0.52       309
+
+    accuracy                           0.58       489
+   macro avg       0.72      0.67      0.57       489
+weighted avg       0.78      0.58      0.56       489
+
+Confusion Matrix for mistral-nemo - zero_shot_cot :
+[[174  13]
+ [ 94 229]]
+Classification Report for mistral-nemo - zero_shot_cot :
+              precision    recall  f1-score   support
+
+         sec       0.65      0.93      0.76       187
+      nonsec       0.95      0.71      0.81       323
+
+    accuracy                           0.79       510
+   macro avg       0.80      0.82      0.79       510
+weighted avg       0.84      0.79      0.79       510
+
+Confusion Matrix for mistral-small - zero_shot_cot :
+[[186   1]
+ [198 123]]
+Classification Report for mistral-small - zero_shot_cot :
+              precision    recall  f1-score   support
+
+         sec       0.48      0.99      0.65       187
+      nonsec       0.99      0.38      0.55       321
+
+    accuracy                           0.61       508
+   macro avg       0.74      0.69      0.60       508
+weighted avg       0.81      0.61      0.59       508
+
+Confusion Matrix for gemma - raw_inst :
+[[187   0]
+ [285  38]]
+Classification Report for gemma - raw_inst :
+              precision    recall  f1-score   support
+
+         sec       0.40      1.00      0.57       187
+      nonsec       1.00      0.12      0.21       323
+
+    accuracy                           0.44       510
+   macro avg       0.70      0.56      0.39       510
+weighted avg       0.78      0.44      0.34       510
+
+Confusion Matrix for gemma2_27b - raw_inst :
+[[175  12]
+ [ 92 231]]
+Classification Report for gemma2_27b - raw_inst :
+              precision    recall  f1-score   support
+
+         sec       0.66      0.94      0.77       187
+      nonsec       0.95      0.72      0.82       323
+
+    accuracy                           0.80       510
+   macro avg       0.80      0.83      0.79       510
+weighted avg       0.84      0.80      0.80       510
+
+Confusion Matrix for gpt-4o-mini - raw_inst :
+[[179   8]
+ [ 79 244]]
+Classification Report for gpt-4o-mini - raw_inst :
+              precision    recall  f1-score   support
+
+         sec       0.69      0.96      0.80       187
+      nonsec       0.97      0.76      0.85       323
+
+    accuracy                           0.83       510
+   macro avg       0.83      0.86      0.83       510
+weighted avg       0.87      0.83      0.83       510
+
+Confusion Matrix for llama3 - raw_inst :
+[[176  11]
+ [103 220]]
+Classification Report for llama3 - raw_inst :
+              precision    recall  f1-score   support
+
+         sec       0.63      0.94      0.76       187
+      nonsec       0.95      0.68      0.79       323
+
+    accuracy                           0.78       510
+   macro avg       0.79      0.81      0.77       510
+weighted avg       0.83      0.78      0.78       510
+
+Confusion Matrix for llama3.1 - raw_inst :
+[[176   9]
+ [119 203]]
+Classification Report for llama3.1 - raw_inst :
+              precision    recall  f1-score   support
+
+         sec       0.60      0.95      0.73       185
+      nonsec       0.96      0.63      0.76       322
+
+    accuracy                           0.75       507
+   macro avg       0.78      0.79      0.75       507
+weighted avg       0.83      0.75      0.75       507
+
+Confusion Matrix for llama3.2-vision - raw_inst :
+[[178   8]
+ [127 192]]
+Classification Report for llama3.2-vision - raw_inst :
+              precision    recall  f1-score   support
+
+         sec       0.58      0.96      0.73       186
+      nonsec       0.96      0.60      0.74       319
+
+    accuracy                           0.73       505
+   macro avg       0.77      0.78      0.73       505
+weighted avg       0.82      0.73      0.73       505
+
+Confusion Matrix for mistral - raw_inst :
+[[165  22]
+ [ 63 260]]
+Classification Report for mistral - raw_inst :
+              precision    recall  f1-score   support
+
+         sec       0.72      0.88      0.80       187
+      nonsec       0.92      0.80      0.86       323
+
+    accuracy                           0.83       510
+   macro avg       0.82      0.84      0.83       510
+weighted avg       0.85      0.83      0.84       510
+
+Confusion Matrix for mistral-nemo - raw_inst :
+[[158  29]
+ [ 41 282]]
+Classification Report for mistral-nemo - raw_inst :
+              precision    recall  f1-score   support
+
+         sec       0.79      0.84      0.82       187
+      nonsec       0.91      0.87      0.89       323
+
+    accuracy                           0.86       510
+   macro avg       0.85      0.86      0.85       510
+weighted avg       0.87      0.86      0.86       510
+
+Confusion Matrix for mistral-small - raw_inst :
+[[177  10]
+ [104 219]]
+Classification Report for mistral-small - raw_inst :
+              precision    recall  f1-score   support
+
+         sec       0.63      0.95      0.76       187
+      nonsec       0.96      0.68      0.79       323
+
+    accuracy                           0.78       510
+   macro avg       0.79      0.81      0.77       510
+weighted avg       0.84      0.78      0.78       510
+
