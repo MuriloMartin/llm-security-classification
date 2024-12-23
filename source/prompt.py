@@ -1,6 +1,3 @@
-
-
-
 def prompt_factory(requirement, strategy):
     sys_msg = ''
     user_msg = ''

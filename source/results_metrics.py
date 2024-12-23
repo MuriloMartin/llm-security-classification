@@ -8,12 +8,6 @@ from prompt import strategys
 from data_analysis import rq1_eda, rq2_eda, rq2_best_improvement, rq2_improvement_by_strategy, rq3_individual,rq3_consolidated
 
 
-def get_label(message):
-    try:
-        return message["part2_aggregate"]["polarity"] if message["part2_aggregate"]["polarity"] != "undefined" else message["discussion_polarity"]
-    except KeyError:
-        return "undefined"  # Substitua por um valor padrão conforme necessário
-
 
 def get_data(models):
     consolidated_df = pd.DataFrame()
