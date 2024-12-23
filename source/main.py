@@ -4,7 +4,10 @@ from tqdm.auto import tqdm
 from prompt import prompt_factory, strategys
 client = ollama.Client(host='http://localhost:11434')
 from openai import OpenAI
-client_openAI = OpenAI()
+
+#Add OpenAI api key, ex:
+#client_openAI = OpenAi(MyApiKey) 
+client_openAI = None
 
 
 
@@ -77,21 +80,25 @@ def classify_req(user_prompt, model, response_logs):
                 raise
             return label
         except:
-            print("Error")
             response_logs.append("^^^^^^^^^^ ERROR ^^^^^^^^^^")
             return None
 
 if __name__ == '__main__':
-    models = ['gpt-4o-mini' ]
-    path = r'C:\Users\Murilo\Desktop\Projetos\TCC\ConsolidatedData\data.json'
+    # define models to run
+    models = ['gemma', 'gemma2_27b', 'gpt-4o-mini', 'llama3', 'llama3.1', 'llama3.2-vision', 'mistral', 'mistral-nemo', 'mistral-small']
+
+
+    path = r'./ConsolidatedData/data.json'
 
     for model in models:
         response_logs = []
-        response_logs_path = rf'C:\Users\Murilo\Desktop\Projetos\TCC\results\logs\response_logs_{model.replace(":","_")}.json'
-        output_path = rf'C:\Users\Murilo\Desktop\Projetos\TCC\results\{model.replace(":","_")}.json'
+        response_logs_path = rf'./results/logs/response_logs_{model.replace(":","_")}.json'
+        output_path = rf'./results/{model.replace(":","_")}.json'
         with open(path, 'r') as file:
             data = json.load(file)
-        sample_size = len(data)
+
+        #change sample size for testing
+        sample_size = 4
         for i in tqdm(data[:sample_size]):
             req = i['requirement']
             for strategy in strategys:   
@@ -105,6 +112,7 @@ if __name__ == '__main__':
         
                 with open(output_path, 'w+') as file:
                     json.dump(data[:sample_size], file, indent=4)
+
                 with open(response_logs_path, 'w+') as file:
                     json.dump(response_logs, file, indent=4)
 

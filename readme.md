@@ -1,0 +1,5 @@
+- Create a virtual environment and install the packages in `requirements.txt`.
+- Install Ollama and run the Ollama server.
+- Run `\source\create_consolidated_dataset.py` to create the consolidated dataset.
+- Run `\source\main` to generate model predictions.
+- Run `\results_metrics` to generate the DataFrames used for analysis.
