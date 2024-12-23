@@ -112,7 +112,7 @@ def get_rq2_consolidated_result(labels, models ):
             report_text += f"{cm}\n"
             report_text += f"Classification Report for {model} - {strategy}:\n"
             report_text += f"{report}\n"
-            #plot_confusion_matrix(cm, report, strategy, labels)
+            
 
     with open(rf'.\results\report_rq2_consolidated.txt', "w+") as file:
         file.write(report_text)
@@ -149,7 +149,7 @@ def get_rq3_individual_secreq_result(labels, models ):
                 report_text += f"{cm}\n"
                 report_text += f"Classification Report for {model} - {strategy} - {project_dict[projectId]}:\n"
                 report_text += f"{report}\n"
-                #plot_confusion_matrix(cm, report, strategy, labels)
+                
 
     with open(rf'.\results\report_rq3_secreq.txt', "w+") as file:
         file.write(report_text)
@@ -178,7 +178,7 @@ def get_rq3_consolidated_secreq_result(labels, models ):
             report_text += f"{cm}\n"
             report_text += f"Classification Report for {model} - {strategy} :\n"
             report_text += f"{report}\n"
-            #plot_confusion_matrix(cm, report, strategy, labels)
+            
 
     with open(rf'.\results\report_rq3_secreq.txt', "w+") as file:
         file.write(report_text)
@@ -207,7 +207,7 @@ def get_rq3_promise_result(labels, models ):
     report_text += f"{cm}\n"
     report_text += f"Classification Report for {model} - {strategy} - 'Promise':\n"
     report_text += f"{report}\n"
-    #plot_confusion_matrix(cm, report, strategy, labels)
+    
 
     with open(rf'.\results\report_rq3_promise.txt', "w+") as file:
         file.write(report_text)
