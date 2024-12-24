@@ -22,7 +22,7 @@ This project analyzes the accuracy of Large Language Models (LLMs) in identifyin
          - It is available in the Ollama library. Missing models defined for evaluation should be automatically pulled by the Ollama provider.
 
 5. **Generate Metrics for Analysis**  
-   - Run `source/results_metrics.py` to create the DataFrames used for analysis.
+   - Run `source/results_metrics.py` to create the evaluation metrics used for analysis.
      - This script also contains a model list. Update it to specify which models you want to include in the metrics generation.
      - The generated DataFrames are passed to functions in the `source/data_analysis.py` file. Each function corresponds to one of the tables displayed in the results section.
 
